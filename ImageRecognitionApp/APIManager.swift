@@ -9,7 +9,7 @@
 import Clarifai
 
 protocol APIManagerDelegate {
-    func sendAnswersArrayToViewController(answers:Array<String>)
+    func updateTextViewWithAnswers(answers:Array<String>)
 }
 
 
@@ -44,7 +44,7 @@ class APIManager: NSObject {
                         }
                         
                         DispatchQueue.main.async {
-                            self.delegate?.sendAnswersArrayToViewController(answers: self.answers)
+                            self.delegate?.updateTextViewWithAnswers(answers: self.answers)
                         }
                     }
                 })

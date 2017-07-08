@@ -7,6 +7,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,37 +24,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tr8-WX-Dka">
-                                <rect key="frame" x="0.0" y="28" width="375" height="320"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="320" id="iiT-Ix-gfS"/>
-                                </constraints>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="348"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="t36-oD-iFu">
-                                <rect key="frame" x="0.0" y="348" width="375" height="128"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="oUZ-5f-72T"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text=" " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="t36-oD-iFu">
+                                <rect key="frame" x="0.0" y="348" width="375" height="271"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3W-7x-sqN">
-                                <rect key="frame" x="127" y="629" width="120" height="30"/>
-                                <state key="normal" title="Take New Picture"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3W-7x-sqN" customClass="ButtonStyleManager" customModule="ImageRecognitionApp" customModuleProvider="target">
+                                <rect key="frame" x="102" y="629" width="170" height="30"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="17"/>
+                                <state key="normal" title=" Take New Picture ">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="goBackToCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZTl-hQ-OgO"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="tr8-WX-Dka" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1Qw-CD-G9e"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="u3W-7x-sqN" secondAttribute="bottom" constant="8" id="1mj-yq-VXm"/>
                             <constraint firstItem="t36-oD-iFu" firstAttribute="top" secondItem="tr8-WX-Dka" secondAttribute="bottom" id="6W2-0h-tKE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="t36-oD-iFu" secondAttribute="trailing" constant="-16" id="7aK-s2-IGZ"/>
-                            <constraint firstItem="u3W-7x-sqN" firstAttribute="top" secondItem="t36-oD-iFu" secondAttribute="bottom" constant="153" id="B9a-OK-oVT"/>
+                            <constraint firstItem="u3W-7x-sqN" firstAttribute="top" secondItem="t36-oD-iFu" secondAttribute="bottom" constant="10" id="B9a-OK-oVT"/>
                             <constraint firstItem="u3W-7x-sqN" firstAttribute="centerX" secondItem="t36-oD-iFu" secondAttribute="centerX" id="bir-2U-YZI"/>
-                            <constraint firstItem="tr8-WX-Dka" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="dqm-Db-nJ7"/>
+                            <constraint firstItem="tr8-WX-Dka" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="dqm-Db-nJ7"/>
+                            <constraint firstItem="tr8-WX-Dka" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" constant="14.5" id="lFG-nQ-zUh"/>
                             <constraint firstItem="t36-oD-iFu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="ldh-AL-iEs"/>
                             <constraint firstAttribute="trailing" secondItem="tr8-WX-Dka" secondAttribute="trailing" id="sgU-4B-zhc"/>
                         </constraints>

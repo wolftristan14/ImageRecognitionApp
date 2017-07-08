@@ -14,34 +14,35 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var button: UIButton!
+    var counter = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         picker.delegate = self
-        imageView.isHidden = true
-        textView.isHidden = true
-        button.isHidden = true
+        self.view.isHidden = true
+        textView.isEditable = false
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+  
+    override func viewWillAppear(_ animated: Bool) {
+        if counter != 0 {
+        self.view.isHidden = false
+        }
     }
 
     override func viewDidAppear(_ animated: Bool) {
-        
-        if imageView.image == nil {
+        if counter == 0 {
         picker.allowsEditing = false
-        picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
-        present(picker, animated: false, completion: nil)
+        picker.sourceType = UIImagePickerControllerSourceType.camera
+        present(picker, animated: true, completion: nil)
+        counter += 1
         }
         
     }
 
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-        // The user picked an image. Send it to Clarifai for recognition.
-        imageView.isHidden = false
-        textView.isHidden = false
-        button.isHidden = false
+        self.view.isHidden = false
+        
         dismiss(animated: true, completion: nil)
         if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
             let apiManager = APIManager()
@@ -56,7 +57,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     @IBAction func goBackToCamera(_ sender: Any) {
         picker.allowsEditing = false
-        picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
+        picker.sourceType = UIImagePickerControllerSourceType.camera
         picker.delegate = self
         present(picker, animated: false, completion: nil)
     }
@@ -65,12 +66,14 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
 extension ViewController: APIManagerDelegate {
     
-    func sendAnswersArrayToViewController(answers: Array<String>) {
+    func updateTextViewWithAnswers(answers: Array<String>) {
         let topFiveAnswersArray = answers.prefix(upTo: 5)
         let answersArrayWithoutQuotations = String(format: "%@", topFiveAnswersArray.description.replacingOccurrences(of: "\"", with: "", options: NSString.CompareOptions.literal, range:nil))
         
         let formattedAnswersArray = answersArrayWithoutQuotations.trimmingCharacters(in: CharacterSet.punctuationCharacters).replacingOccurrences(of: ",", with: "\n")
-        self.textView.text = formattedAnswersArray
+        let space = " "
+        self.textView.text = space.appending(formattedAnswersArray)
+        
         self.button.isEnabled = true
         
     }
