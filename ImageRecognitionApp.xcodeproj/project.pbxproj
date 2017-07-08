@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A126C9B71F0FF4050040591E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126C9B61F0FF4050040591E /* AppDelegate.swift */; };
+		A126C9B91F0FF4050040591E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126C9B81F0FF4050040591E /* ViewController.swift */; };
+		A126C9BC1F0FF4050040591E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A126C9BA1F0FF4050040591E /* Main.storyboard */; };
+		A126C9BE1F0FF4050040591E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A126C9BD1F0FF4050040591E /* Assets.xcassets */; };
+		A126C9C11F0FF4050040591E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A126C9BF1F0FF4050040591E /* LaunchScreen.storyboard */; };
+		A126C9CB1F102D240040591E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126C9CA1F102D240040591E /* APIManager.swift */; };
+		D99587F69E935D7FA0B19A67 /* Pods_ImageRecognitionApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDADA8584B739D31F6AC131C /* Pods_ImageRecognitionApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A126C9B31F0FF4050040591E /* ImageRecognitionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRecognitionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A126C9B61F0FF4050040591E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A126C9B81F0FF4050040591E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A126C9BB1F0FF4050040591E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A126C9BD1F0FF4050040591E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A126C9C01F0FF4050040591E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A126C9C21F0FF4050040591E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A126C9CA1F102D240040591E /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		AC1170947C9C28DFE5199A41 /* Pods-ImageRecognitionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageRecognitionApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageRecognitionApp/Pods-ImageRecognitionApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CDADA8584B739D31F6AC131C /* Pods_ImageRecognitionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageRecognitionApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E399F846EE06067F63E86B97 /* Pods-ImageRecognitionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageRecognitionApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageRecognitionApp/Pods-ImageRecognitionApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A126C9B01F0FF4050040591E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99587F69E935D7FA0B19A67 /* Pods_ImageRecognitionApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29B5E23B20ACCB5A404569BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDADA8584B739D31F6AC131C /* Pods_ImageRecognitionApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B616478566CAB2FA44CBC9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC1170947C9C28DFE5199A41 /* Pods-ImageRecognitionApp.debug.xcconfig */,
+				E399F846EE06067F63E86B97 /* Pods-ImageRecognitionApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A126C9AA1F0FF4050040591E = {
+			isa = PBXGroup;
+			children = (
+				A126C9B51F0FF4050040591E /* ImageRecognitionApp */,
+				A126C9B41F0FF4050040591E /* Products */,
+				9B616478566CAB2FA44CBC9A /* Pods */,
+				29B5E23B20ACCB5A404569BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A126C9B41F0FF4050040591E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A126C9B31F0FF4050040591E /* ImageRecognitionApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A126C9B51F0FF4050040591E /* ImageRecognitionApp */ = {
+			isa = PBXGroup;
+			children = (
+				A126C9B61F0FF4050040591E /* AppDelegate.swift */,
+				A126C9B81F0FF4050040591E /* ViewController.swift */,
+				A126C9CA1F102D240040591E /* APIManager.swift */,
+				A126C9BA1F0FF4050040591E /* Main.storyboard */,
+				A126C9BD1F0FF4050040591E /* Assets.xcassets */,
+				A126C9BF1F0FF4050040591E /* LaunchScreen.storyboard */,
+				A126C9C21F0FF4050040591E /* Info.plist */,
+			);
+			path = ImageRecognitionApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A126C9B21F0FF4050040591E /* ImageRecognitionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A126C9C51F0FF4050040591E /* Build configuration list for PBXNativeTarget "ImageRecognitionApp" */;
+			buildPhases = (
+				066C924B3519C6A3A7706874 /* [CP] Check Pods Manifest.lock */,
+				A126C9AF1F0FF4050040591E /* Sources */,
+				A126C9B01F0FF4050040591E /* Frameworks */,
+				A126C9B11F0FF4050040591E /* Resources */,
+				BB4300815CB83AB50F88B327 /* [CP] Embed Pods Frameworks */,
+				9E1F550028DA66AEB99AFB32 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageRecognitionApp;
+			productName = ImageRecognitionApp;
+			productReference = A126C9B31F0FF4050040591E /* ImageRecognitionApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A126C9AB1F0FF4050040591E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tristan Wolf";
+				TargetAttributes = {
+					A126C9B21F0FF4050040591E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B5TBSUDAA5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A126C9AE1F0FF4050040591E /* Build configuration list for PBXProject "ImageRecognitionApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A126C9AA1F0FF4050040591E;
+			productRefGroup = A126C9B41F0FF4050040591E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A126C9B21F0FF4050040591E /* ImageRecognitionApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A126C9B11F0FF4050040591E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A126C9C11F0FF4050040591E /* LaunchScreen.storyboard in Resources */,
+				A126C9BE1F0FF4050040591E /* Assets.xcassets in Resources */,
+				A126C9BC1F0FF4050040591E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		066C924B3519C6A3A7706874 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E1F550028DA66AEB99AFB32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageRecognitionApp/Pods-ImageRecognitionApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB4300815CB83AB50F88B327 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageRecognitionApp/Pods-ImageRecognitionApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A126C9AF1F0FF4050040591E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A126C9CB1F102D240040591E /* APIManager.swift in Sources */,
+				A126C9B91F0FF4050040591E /* ViewController.swift in Sources */,
+				A126C9B71F0FF4050040591E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A126C9BA1F0FF4050040591E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A126C9BB1F0FF4050040591E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A126C9BF1F0FF4050040591E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A126C9C01F0FF4050040591E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A126C9C31F0FF4050040591E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A126C9C41F0FF4050040591E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A126C9C61F0FF4050040591E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC1170947C9C28DFE5199A41 /* Pods-ImageRecognitionApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B5TBSUDAA5;
+				INFOPLIST_FILE = ImageRecognitionApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tristanwolf.ImageRecognitionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A126C9C71F0FF4050040591E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E399F846EE06067F63E86B97 /* Pods-ImageRecognitionApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B5TBSUDAA5;
+				INFOPLIST_FILE = ImageRecognitionApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tristanwolf.ImageRecognitionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A126C9AE1F0FF4050040591E /* Build configuration list for PBXProject "ImageRecognitionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A126C9C31F0FF4050040591E /* Debug */,
+				A126C9C41F0FF4050040591E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A126C9C51F0FF4050040591E /* Build configuration list for PBXNativeTarget "ImageRecognitionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A126C9C61F0FF4050040591E /* Debug */,
+				A126C9C71F0FF4050040591E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A126C9AB1F0FF4050040591E /* Project object */;
+}
