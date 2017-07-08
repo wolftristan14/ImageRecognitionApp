@@ -8,13 +8,9 @@
 
 import UIKit
 
-
-
-
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     let picker = UIImagePickerController()
-
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var button: UIButton!
@@ -70,7 +66,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 extension ViewController: APIManagerDelegate {
     
     func sendAnswersArrayToViewController(answers: Array<String>) {
-        self.textView.text = String(format: "Answers:\n%@", answers.description)
+        let topFiveAnswersArray = answers.prefix(upTo: 5)
+        let answersArrayWithoutQuotations = String(format: "%@", topFiveAnswersArray.description.replacingOccurrences(of: "\"", with: "", options: NSString.CompareOptions.literal, range:nil))
+        
+        let formattedAnswersArray = answersArrayWithoutQuotations.trimmingCharacters(in: CharacterSet.punctuationCharacters).replacingOccurrences(of: ",", with: "\n")
+        self.textView.text = formattedAnswersArray
         self.button.isEnabled = true
         
     }

@@ -7,8 +7,6 @@
 //
 
 import Clarifai
-//import Foundation
-//import UIKit
 
 protocol APIManagerDelegate {
     func sendAnswersArrayToViewController(answers:Array<String>)
