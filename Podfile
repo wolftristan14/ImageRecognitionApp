@@ -7,4 +7,7 @@ target 'ImageRecognitionApp' do
 
   # Pods for ImageRecognitionApp
   pod ‘Clarifai’
+  pod ‘Firebase/Core’
+  pod ‘Firebase/Auth’
+  pod ‘Firebase/Database’
 end
