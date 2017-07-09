@@ -9,13 +9,13 @@
 import Clarifai
 
 protocol APIManagerDelegate {
-    func updateTextViewWithAnswers(answers:Array<String>)
+    func updateTextViewWithMatches(matches:Array<String>)
 }
 
 class APIManager: NSObject {
     
     let app = ClarifaiApp(apiKey: "e61a45b0c24f42528b9de709b83cc3d2")
-    var answers = Array<String>()
+    var matches = Array<String>()
     var delegate:APIManagerDelegate?
     
     func recognizeImage(image: UIImage) {
@@ -37,11 +37,11 @@ class APIManager: NSObject {
                     
                     if let clarOutput = clarOuputs.first {
                         for concept in clarOutput.concepts {
-                            self.answers.append(concept.conceptName)
+                            self.matches.append(concept.conceptName)
                         }
                         
                         DispatchQueue.main.async {
-                            self.delegate?.updateTextViewWithAnswers(answers: self.answers)
+                            self.delegate?.updateTextViewWithMatches(matches: self.matches)
                         }
                     }
                 })

@@ -78,7 +78,7 @@
         <!--Image Recognition App-->
         <scene sceneID="EMd-hC-lhd">
             <objects>
-                <viewController id="0A5-iB-52g" sceneMemberID="viewController">
+                <viewController id="0A5-iB-52g" customClass="LogInViewController" customModule="ImageRecognitionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Apw-oz-NpC"/>
                         <viewControllerLayoutGuide type="bottom" id="sZ2-TL-AST"/>

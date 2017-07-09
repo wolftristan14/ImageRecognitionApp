@@ -65,14 +65,14 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
 extension ViewController: APIManagerDelegate {
     
-    func updateTextViewWithAnswers(answers: Array<String>) {
+    func updateTextViewWithMatches(matches: Array<String>) {
         SwiftSpinner.hide()
-        let topFiveAnswersArray = answers.prefix(upTo: 5)
-        let answersArrayWithoutQuotations = String(format: "%@", topFiveAnswersArray.description.replacingOccurrences(of: "\"", with: "", options: NSString.CompareOptions.literal, range:nil))
+        let topFiveMatchesArray = matches.prefix(upTo: 5)
+        let matchesArrayWithoutQuotations = String(format: "%@", topFiveMatchesArray.description.replacingOccurrences(of: "\"", with: "", options: NSString.CompareOptions.literal, range:nil))
         
-        let formattedAnswersArray = answersArrayWithoutQuotations.trimmingCharacters(in: CharacterSet.punctuationCharacters).replacingOccurrences(of: ",", with: "\n")
+        let formattedMatchesArray = matchesArrayWithoutQuotations.trimmingCharacters(in: CharacterSet.punctuationCharacters).replacingOccurrences(of: ",", with: "\n")
         let space = " "
-        self.textView.text = space.appending(formattedAnswersArray)
+        self.textView.text = space.appending(formattedMatchesArray)
         
         self.button.isEnabled = true
         
