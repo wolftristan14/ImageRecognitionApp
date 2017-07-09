@@ -12,15 +12,12 @@ protocol APIManagerDelegate {
     func updateTextViewWithAnswers(answers:Array<String>)
 }
 
-
 class APIManager: NSObject {
     
     let app = ClarifaiApp(apiKey: "e61a45b0c24f42528b9de709b83cc3d2")
     var answers = Array<String>()
-    
     var delegate:APIManagerDelegate?
     
-
     func recognizeImage(image: UIImage) {
         
         if let app = app {

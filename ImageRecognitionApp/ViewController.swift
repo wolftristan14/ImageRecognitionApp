@@ -21,9 +21,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         picker.delegate = self
         self.view.isHidden = true
         textView.isEditable = false
+        textView.isSelectable = false
     }
 
-  
     override func viewWillAppear(_ animated: Bool) {
         if counter != 0 {
         self.view.isHidden = false
@@ -33,7 +33,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     override func viewDidAppear(_ animated: Bool) {
         if counter == 0 {
         picker.allowsEditing = false
-        picker.sourceType = UIImagePickerControllerSourceType.camera
+        picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
         present(picker, animated: true, completion: nil)
         counter += 1
         }
@@ -48,18 +48,17 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             let apiManager = APIManager()
             apiManager.delegate = self
             apiManager.recognizeImage(image: image)
+            SwiftSpinner.show("Loading Matches...")
             imageView.image = image
-            textView.text = "Loading..."
             button.isEnabled = false
         }
     }
 
-    
     @IBAction func goBackToCamera(_ sender: Any) {
         picker.allowsEditing = false
-        picker.sourceType = UIImagePickerControllerSourceType.camera
+        picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
         picker.delegate = self
-        present(picker, animated: false, completion: nil)
+        present(picker, animated: true, completion: nil)
     }
     
 }
@@ -67,6 +66,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 extension ViewController: APIManagerDelegate {
     
     func updateTextViewWithAnswers(answers: Array<String>) {
+        SwiftSpinner.hide()
         let topFiveAnswersArray = answers.prefix(upTo: 5)
         let answersArrayWithoutQuotations = String(format: "%@", topFiveAnswersArray.description.replacingOccurrences(of: "\"", with: "", options: NSString.CompareOptions.literal, range:nil))
         

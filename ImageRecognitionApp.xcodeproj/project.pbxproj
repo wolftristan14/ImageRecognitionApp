@@ -14,6 +14,7 @@
 		A126C9C11F0FF4050040591E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A126C9BF1F0FF4050040591E /* LaunchScreen.storyboard */; };
 		A126C9CB1F102D240040591E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126C9CA1F102D240040591E /* APIManager.swift */; };
 		A126C9CF1F118AC30040591E /* ButtonStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126C9CE1F118AC30040591E /* ButtonStyleManager.swift */; };
+		A126C9D11F11AFD40040591E /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126C9D01F11AFD40040591E /* SwiftSpinner.swift */; };
 		D99587F69E935D7FA0B19A67 /* Pods_ImageRecognitionApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDADA8584B739D31F6AC131C /* Pods_ImageRecognitionApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		A126C9C21F0FF4050040591E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A126C9CA1F102D240040591E /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		A126C9CE1F118AC30040591E /* ButtonStyleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyleManager.swift; sourceTree = "<group>"; };
+		A126C9D01F11AFD40040591E /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
 		AC1170947C9C28DFE5199A41 /* Pods-ImageRecognitionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageRecognitionApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageRecognitionApp/Pods-ImageRecognitionApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CDADA8584B739D31F6AC131C /* Pods_ImageRecognitionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageRecognitionApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E399F846EE06067F63E86B97 /* Pods-ImageRecognitionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageRecognitionApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageRecognitionApp/Pods-ImageRecognitionApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				A126C9B81F0FF4050040591E /* ViewController.swift */,
 				A126C9CA1F102D240040591E /* APIManager.swift */,
 				A126C9CE1F118AC30040591E /* ButtonStyleManager.swift */,
+				A126C9D01F11AFD40040591E /* SwiftSpinner.swift */,
 				A126C9BA1F0FF4050040591E /* Main.storyboard */,
 				A126C9BD1F0FF4050040591E /* Assets.xcassets */,
 				A126C9BF1F0FF4050040591E /* LaunchScreen.storyboard */,
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A126C9D11F11AFD40040591E /* SwiftSpinner.swift in Sources */,
 				A126C9CB1F102D240040591E /* APIManager.swift in Sources */,
 				A126C9B91F0FF4050040591E /* ViewController.swift in Sources */,
 				A126C9B71F0FF4050040591E /* AppDelegate.swift in Sources */,
