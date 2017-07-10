@@ -18,6 +18,7 @@
 		A126C9D31F128C540040591E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A126C9D21F128C540040591E /* GoogleService-Info.plist */; };
 		A126C9D51F12B3F60040591E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126C9D41F12B3F60040591E /* LogInViewController.swift */; };
 		A126C9DD1F13CC530040591E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126C9DC1F13CC530040591E /* SignUpViewController.swift */; };
+		A126C9DF1F13DBC10040591E /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126C9DE1F13DBC10040591E /* Query.swift */; };
 		D99587F69E935D7FA0B19A67 /* Pods_ImageRecognitionApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDADA8584B739D31F6AC131C /* Pods_ImageRecognitionApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		A126C9D21F128C540040591E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A126C9D41F12B3F60040591E /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		A126C9DC1F13CC530040591E /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A126C9DE1F13DBC10040591E /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
 		AC1170947C9C28DFE5199A41 /* Pods-ImageRecognitionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageRecognitionApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageRecognitionApp/Pods-ImageRecognitionApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CDADA8584B739D31F6AC131C /* Pods_ImageRecognitionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageRecognitionApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E399F846EE06067F63E86B97 /* Pods-ImageRecognitionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageRecognitionApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageRecognitionApp/Pods-ImageRecognitionApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				A126C9D41F12B3F60040591E /* LogInViewController.swift */,
 				A126C9DC1F13CC530040591E /* SignUpViewController.swift */,
 				A126C9CA1F102D240040591E /* APIManager.swift */,
+				A126C9DE1F13DBC10040591E /* Query.swift */,
 				A126C9CE1F118AC30040591E /* ButtonStyleManager.swift */,
 				A126C9D01F11AFD40040591E /* SwiftSpinner.swift */,
 				A126C9BA1F0FF4050040591E /* Main.storyboard */,
@@ -235,6 +238,7 @@
 				A126C9DD1F13CC530040591E /* SignUpViewController.swift in Sources */,
 				A126C9CB1F102D240040591E /* APIManager.swift in Sources */,
 				A126C9D51F12B3F60040591E /* LogInViewController.swift in Sources */,
+				A126C9DF1F13DBC10040591E /* Query.swift in Sources */,
 				A126C9B91F0FF4050040591E /* ViewController.swift in Sources */,
 				A126C9B71F0FF4050040591E /* AppDelegate.swift in Sources */,
 				A126C9CF1F118AC30040591E /* ButtonStyleManager.swift in Sources */,

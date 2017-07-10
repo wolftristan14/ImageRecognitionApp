@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 import Firebase
 import FirebaseAuth
-import FirebaseDatabase
 
 class SignUpViewController: UIViewController {
     
@@ -20,11 +19,8 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var confirmPasswordTextField: UITextField!
     
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
     @IBAction func signUpAction(_ sender: UIButton) {
@@ -42,8 +38,13 @@ class SignUpViewController: UIViewController {
                 if self.passwordTextField.text == self.confirmPasswordTextField.text {
                     if error == nil {
                         print("Signup was successful")
-                        //self.navigationController?.popViewController(animated: true)
-
+                    
+                        self.emailTextField.text?.removeAll()
+                        self.passwordTextField.text?.removeAll()
+                        self.confirmPasswordTextField.text?.removeAll()
+                        self.navigationController?.popViewController(animated: true)
+                        self.dismiss(animated: true, completion: nil)
+                        
                     } else {
                         let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
                         

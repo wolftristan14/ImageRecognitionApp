@@ -7,14 +7,22 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
+import FirebaseDatabase
+import FirebaseStorage
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     let picker = UIImagePickerController()
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var textView: UITextView!
-    @IBOutlet weak var button: UIButton!
     var counter = 0
+    var correctMatch:Bool!
+    
+    var databaseRef:DatabaseReference! {
+        return Database.database().reference()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +41,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     override func viewDidAppear(_ animated: Bool) {
         if counter == 0 {
         picker.allowsEditing = false
-        picker.sourceType = UIImagePickerControllerSourceType.camera
+        picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
         present(picker, animated: true, completion: nil)
         counter += 1
         }
@@ -45,18 +53,66 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         dismiss(animated: true, completion: nil)
         if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
+          
             let apiManager = APIManager()
             apiManager.delegate = self
             apiManager.recognizeImage(image: image)
             SwiftSpinner.show("Loading Matches...")
             imageView.image = image
-            button.isEnabled = false
+            //button.isEnabled = false
         }
     }
+    
+    @IBAction func correctMatch(_ sender: Any) {
+        correctMatch = true
+        SwiftSpinner.show("Writing to database...")
+        uploadImageToStorage()
+    }
+    
+    @IBAction func incorrectMatch(_ sender: Any) {
+        correctMatch = false
+        SwiftSpinner.show("Writing to database...")
+        uploadImageToStorage()
+    }
+    
+    func uploadImageToStorage() {
+        
+        let imageName = NSUUID().uuidString
+        let storageRef = Storage.storage().reference().child(imageName)
+        
+        if let uploadData = UIImagePNGRepresentation(imageView.image ?? #imageLiteral(resourceName: "Tom's_Restaurant,_NYC")) {
+            
+            storageRef.putData(uploadData, metadata: nil, completion: {(metadata, error) in
+                
+                if error != nil {
+                    print(error?.localizedDescription ?? "error")
+                    return
+                }
+                let imageURL = metadata?.downloadURL()?.absoluteString
+                self.writeToDatabase(imageURL: imageURL!)
+            })
+            
+        }
+    }
+    
+    func writeToDatabase(imageURL:String) {
+        
+        let queryRef = databaseRef.child("Queries").child("\(RAND_MAX)")
+        
+        let query = Query(user: (Auth.auth().currentUser?.email)!, imageURL: imageURL, matches: self.textView.text.replacingOccurrences(of: "\n", with: ","), correctMatch: correctMatch)
+        
+        queryRef.setValue(query.toAnyObject())
 
-    @IBAction func goBackToCamera(_ sender: Any) {
+        hideSwiftSpinner()
+    }
+    
+    func hideSwiftSpinner() {
+        SwiftSpinner.hide()
+    }
+
+    @IBAction func goBackToCamera(_ sender: UIBarButtonItem) {
         picker.allowsEditing = false
-        picker.sourceType = UIImagePickerControllerSourceType.camera
+        picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
         picker.delegate = self
         present(picker, animated: true, completion: nil)
     }
@@ -74,7 +130,8 @@ extension ViewController: APIManagerDelegate {
         let space = " "
         self.textView.text = space.appending(formattedMatchesArray)
         
-        self.button.isEnabled = true
+        
+       // self.button.isEnabled = true
         
     }
 }

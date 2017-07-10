@@ -7,115 +7,115 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00478763C676686A92655AC6F159377C /* ClarifaiModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ECD8AFDD6A472D222CBD5D6A7C38D88 /* ClarifaiModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		00C05031BBA5BA48A00FE41348F41BDA /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DF302BCE5E2FB89BB93AF6A54D4A4A05 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0684B1ED5B9514F2F197C30875451CBD /* ClarifaiCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = FE683525196BBFDBCB3FC2A7B5F7C6B5 /* ClarifaiCrop.m */; };
-		06DF321D05A13722FC64BED18ED49888 /* ClarifaiModelVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 052C1801203693BB6949E4381DE3873D /* ClarifaiModelVersion.m */; };
-		07340F15BACBA601736DBB2ABF1ABC35 /* GTMSessionFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DF26EB9982E27D6056260B555955D8 /* GTMSessionFetcherLogging.m */; };
-		0749EC40D3519957D43A1040F9662F71 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12B9670B3CA36904F22CB792877BABBE /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00478763C676686A92655AC6F159377C /* ClarifaiModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8678874781E6C900E41921186937C7 /* ClarifaiModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00C05031BBA5BA48A00FE41348F41BDA /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A94F5D51E8C2B8BC73AC66F2ED679F9B /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0684B1ED5B9514F2F197C30875451CBD /* ClarifaiCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3B2901EF25D1ACA5BD279F61231742 /* ClarifaiCrop.m */; };
+		06DF321D05A13722FC64BED18ED49888 /* ClarifaiModelVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = D043E17459984A680E2F1294EE6204E2 /* ClarifaiModelVersion.m */; };
+		07340F15BACBA601736DBB2ABF1ABC35 /* GTMSessionFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5D509ED50405CC7C4E35FB5E712D5E /* GTMSessionFetcherLogging.m */; };
+		0749EC40D3519957D43A1040F9662F71 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD94E0ECCB79315BA3FF792A1FD4CEBB /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		077BD65EE32B22A4D8791816765EC16A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159245C1D8294EF16CB016833D763E42 /* Foundation.framework */; };
-		0D1FFD30267C0776FD3E88EFF51E312F /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 500A66A435A5A1EA534800522B4116A7 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11878AAEE329E7A476D415FFDE39F3E0 /* ClarifaiGeo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9B658B41F8EE7DA16B8697A1221817 /* ClarifaiGeo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11F0D0CB930604B4DAAE93FEA3904826 /* GTMNSDictionary+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3B89930E5AC1860AA3335D3B11A912 /* GTMNSDictionary+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		140F458AB7312414FC423FEED70A3733 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBBD682207B7FF4BA844599900D4329 /* UIActivityIndicatorView+AFNetworking.m */; };
-		14D5ABE0B9E5F4C033734032766CEE56 /* ClarifaiModelVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 912092017D5BF4FD00EE9B53ABB9079D /* ClarifaiModelVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17A90E9BEBC1B3763AB68D92E53AFDA1 /* ClarifaiOutputFocus.h in Headers */ = {isa = PBXBuildFile; fileRef = 4354002EFB7328E89C6A222AB477B117 /* ClarifaiOutputFocus.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E2A6D057E20BE8F5ED3E594F7B8C286 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0141DA65096CE99C60E399E600E3D50A /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1ED67707C258751E7888DAC2AB3D8501 /* GTMSessionFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = F0A380B27C2FEE720C9F1FB6835941CE /* GTMSessionFetcherLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1FFD30267C0776FD3E88EFF51E312F /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F58980883F2B13870BC63C4411D66AF /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11878AAEE329E7A476D415FFDE39F3E0 /* ClarifaiGeo.h in Headers */ = {isa = PBXBuildFile; fileRef = 548E6905012D0819007EFE170AA48F9C /* ClarifaiGeo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11F0D0CB930604B4DAAE93FEA3904826 /* GTMNSDictionary+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = AC6CA4691225D56F386A98A2C8E032A1 /* GTMNSDictionary+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		140F458AB7312414FC423FEED70A3733 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EBB5E96018BF707FC9E82D09936D82 /* UIActivityIndicatorView+AFNetworking.m */; };
+		14D5ABE0B9E5F4C033734032766CEE56 /* ClarifaiModelVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 292C6D0D56FB6F7C1975A687EC153A39 /* ClarifaiModelVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17A90E9BEBC1B3763AB68D92E53AFDA1 /* ClarifaiOutputFocus.h in Headers */ = {isa = PBXBuildFile; fileRef = A89D168BD7993B25E74581D6244A2D1F /* ClarifaiOutputFocus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E2A6D057E20BE8F5ED3E594F7B8C286 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FDBBF6FA4E0BEDE85E595916BAA2BF /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ED67707C258751E7888DAC2AB3D8501 /* GTMSessionFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 33AB82C0248774DAE9407C42114AF4F8 /* GTMSessionFetcherLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F9B999DFAA1052294448B64C77434B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159245C1D8294EF16CB016833D763E42 /* Foundation.framework */; };
 		23EFB184AD12FB1014FFC765CE0D710A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D39D513DA3519FA56B3F9657B9F9990 /* Security.framework */; };
-		29476636EA86BEFC4CB833D3BB7A52D7 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F45AD2ED81A79191BBA90AD59862FCF /* AFURLRequestSerialization.m */; };
-		2B0705CC26A4CBEE32A5A60284AED35B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CBB26E824393A61B0FA27454333E77 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2EFC826FB30ECD27C98CE7F3707E9012 /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = A67C8A20C25098153B928570D8C2BE3B /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		30D55DDD488E74CA07699C84761E3CBE /* ClarifaiConcept.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD7D5727642B6BB1EF9F71528272E29 /* ClarifaiConcept.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32076D3DD644045CF79DFFEBB6BFF3F2 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E325377EE059024DABCDCDF72C8E7 /* UIButton+AFNetworking.m */; };
-		32CF9BB4493C89CB01FFADD6DB754927 /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5A6BD73DA374B7678D4D13E78AF560 /* GoogleToolboxForMac-dummy.m */; };
-		34C88657FE7ABE9F833623F94952D253 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6A82AD7A85D63073FF5BEC60641E2B /* UIProgressView+AFNetworking.m */; };
-		35CBB7B255FD8D412AFCECBC4311A847 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 14798F29A3F94D41C26734FCFB9B5CE6 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29476636EA86BEFC4CB833D3BB7A52D7 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FD027FCD9A4290ECDB48078E1F96A3E5 /* AFURLRequestSerialization.m */; };
+		2B0705CC26A4CBEE32A5A60284AED35B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B03735B6270C893A86325AF8444DC1 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EFC826FB30ECD27C98CE7F3707E9012 /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41AD31EF86F6895C4C56E394833C1E /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		30D55DDD488E74CA07699C84761E3CBE /* ClarifaiConcept.h in Headers */ = {isa = PBXBuildFile; fileRef = A0290014B9C9AF7039482F1BBD92CF76 /* ClarifaiConcept.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32076D3DD644045CF79DFFEBB6BFF3F2 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1C93ED70B0E6F9E53E07140DE9EDC6 /* UIButton+AFNetworking.m */; };
+		32CF9BB4493C89CB01FFADD6DB754927 /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A25E4ECC952B70771424ABDF72EBB2FD /* GoogleToolboxForMac-dummy.m */; };
+		34C88657FE7ABE9F833623F94952D253 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 326158A70A7683E6D8E380E0E53FBF2D /* UIProgressView+AFNetworking.m */; };
+		35CBB7B255FD8D412AFCECBC4311A847 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A162F2AEFB01E36A403E705776A3BA9 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D08CC89F3DEA9DA983D2ABB2402B03F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159245C1D8294EF16CB016833D763E42 /* Foundation.framework */; };
-		43FEEEEF641B473D7AF831F19505866E /* ClarifaiSearchTerm.h in Headers */ = {isa = PBXBuildFile; fileRef = B81BECFD19BA50921E67C1F970103132 /* ClarifaiSearchTerm.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4442D8453D210EFC13CFE2CAF862ED1D /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 107A8339EF75CD3C636C7E125B8DBCF4 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45F802D04B3BE0CAEC586C2F3016027B /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5B35C8133BCD5F4BD2FA4B496F26C2 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47F04CBDF6C54B220F6AEECEF15264D5 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 31B9BE0A263540FF674667750A29040C /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49FB61752281C1DB6121F96782C757D4 /* NSDictionary+Clarifai.m in Sources */ = {isa = PBXBuildFile; fileRef = A502511A5EF002D2F03D5CE132A9B906 /* NSDictionary+Clarifai.m */; };
-		4F2AB5BFF7D9DE66B8B242ACE69AE0D9 /* GTMDebugThreadValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0C555C9B7398B9410515151E7C3ECE /* GTMDebugThreadValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51047C1945103943F70BEADE83725630 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E30ADC8942A8ED026D98C3864C01DDEA /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		544343A128BA5F93A926569BD9A81C78 /* ClarifaiGeo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7124561E2533110CDF8EF8E4D3DDF788 /* ClarifaiGeo.m */; };
-		5A1D34D104D42B1EE399E23BCD7935A0 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FA85653804686181BCD3CD0E4548DD00 /* AFURLResponseSerialization.m */; };
-		5AA16C05F1CD4B31581AD2026E59E04B /* ClarifaiConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8263C49B81230691EAEF6885FA228B56 /* ClarifaiConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B92D1D5ECFEBA99F4C67864E1397A6D /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2D15A3E39827DD6FB655A78B70A6FF /* GTMNSString+URLArguments.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		649E78B5EA450FABDF5201E31F265FAB /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD244B379D930433EC22E65E8A0D29CB /* AFNetworkActivityIndicatorManager.m */; };
-		64F31B70A6E5E6963518A01C285B435F /* GTMSessionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4280E50EAD6FF66E4A09EE3A3849A2B4 /* GTMSessionFetcher.m */; };
-		6573AF9ABA59AC8D1F52B07088197F71 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1746200901A6DD9CDD6E601681BA119F /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43FEEEEF641B473D7AF831F19505866E /* ClarifaiSearchTerm.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BFAC0CC8D27B52F890AD475ED4E9E3 /* ClarifaiSearchTerm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4442D8453D210EFC13CFE2CAF862ED1D /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EC24673BFDE3D208CBC38968A3281531 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45F802D04B3BE0CAEC586C2F3016027B /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FB3010875287E55D9901DF9F9DF01C /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47F04CBDF6C54B220F6AEECEF15264D5 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E2CE4A82CEA637F05ABE69B5B13C90 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49FB61752281C1DB6121F96782C757D4 /* NSDictionary+Clarifai.m in Sources */ = {isa = PBXBuildFile; fileRef = 767F229199339C42D60F1BCDC5924356 /* NSDictionary+Clarifai.m */; };
+		4F2AB5BFF7D9DE66B8B242ACE69AE0D9 /* GTMDebugThreadValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 24A0FB91461F66CD2D21172BF1F6FFD9 /* GTMDebugThreadValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51047C1945103943F70BEADE83725630 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DF7DDC4330924C9615E97F6242D53C /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		544343A128BA5F93A926569BD9A81C78 /* ClarifaiGeo.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA508C7F1EC3D8A663BC183333ACE54 /* ClarifaiGeo.m */; };
+		5A1D34D104D42B1EE399E23BCD7935A0 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C18CE54CE7FC038FFA2D8229EBA676B /* AFURLResponseSerialization.m */; };
+		5AA16C05F1CD4B31581AD2026E59E04B /* ClarifaiConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C64BA918AE2D4D1139940A969E93A3 /* ClarifaiConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B92D1D5ECFEBA99F4C67864E1397A6D /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 790C30818C31360591F97DC52AE5D116 /* GTMNSString+URLArguments.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		649E78B5EA450FABDF5201E31F265FAB /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D630301EC5C1DCDC95360A25886403 /* AFNetworkActivityIndicatorManager.m */; };
+		64F31B70A6E5E6963518A01C285B435F /* GTMSessionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 620EA8D2C723092BB20D81B059CC6FF7 /* GTMSessionFetcher.m */; };
+		6573AF9ABA59AC8D1F52B07088197F71 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 434F7D9D1AD71BB4E968258834F1D729 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65B56BD3DBC9B81BB008219D0BA735A9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D39D513DA3519FA56B3F9657B9F9990 /* Security.framework */; };
-		665B044861A202331CDD8F9591EE235E /* ResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 911822CE9C6715681C6B5BBE1665C0A8 /* ResponseSerializer.m */; };
-		6EA6DFC4473A9B2DB6B8A42EA986BA5B /* GTMSessionFetcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A7BD3DF61C4D26579638D18F9FF2E4 /* GTMSessionFetcher-dummy.m */; };
-		7037A1C059A0AED84E3258A6200C66F8 /* ClarifaiImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D706A492B224BAC2797E736615506035 /* ClarifaiImage.m */; };
-		72470F203B7D031D00FBD32B55B2B43F /* ClarifaiOutputRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8E58C245AC9D68CF927F73588AB52B /* ClarifaiOutputRegion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665B044861A202331CDD8F9591EE235E /* ResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 485768DC51939C6BD301B8A418BD665B /* ResponseSerializer.m */; };
+		6EA6DFC4473A9B2DB6B8A42EA986BA5B /* GTMSessionFetcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA312C6EE4515573F2ED86787D11E53D /* GTMSessionFetcher-dummy.m */; };
+		7037A1C059A0AED84E3258A6200C66F8 /* ClarifaiImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FD61CD9F70F36EFD24A01045085E225C /* ClarifaiImage.m */; };
+		72470F203B7D031D00FBD32B55B2B43F /* ClarifaiOutputRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 185A899ED58B4DE0B1C7AE6527BFECA8 /* ClarifaiOutputRegion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72BE65E696A388D4CC0D75BE461FEF1B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ADAF03A765A3FCAC6E0673E44664E07 /* MobileCoreServices.framework */; };
-		7A112C0F21A62CB6F1AA8D917A6EEA6C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E23B988E037EBBFF0D76681426E3D7D3 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A2EA3607F93B73CF3286A82564EC8E5 /* ClarifaiOutputFace.m in Sources */ = {isa = PBXBuildFile; fileRef = E28A16625A229DA5FE92ACC9BC4D41DA /* ClarifaiOutputFace.m */; };
-		7CE16B1BF75DF396768A0A3CFD968DB1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB76834ADB4807724B0868592E1537B /* UIWebView+AFNetworking.m */; };
-		7E277015ACC4799ABFEEEB23CDCE9129 /* Clarifai-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 651FF2F90600BA8A9564C33AAC24BAEB /* Clarifai-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F43785CA660CEBC49ABF810AAD8E888 /* ClarifaiCrop.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C03D7F313CDD5F86960EA0F32E9E09 /* ClarifaiCrop.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8464D885FF7B8EFE7CC39BB6940E8BAE /* ClarifaiOutputRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4658BA3A8D4C43DB8AE80AD67621DB1D /* ClarifaiOutputRegion.m */; };
-		867AF39ACF99464A9107BBF7F2711F57 /* NSArray+Clarifai.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9647B787B0565A7869735E40686A87 /* NSArray+Clarifai.m */; };
-		8852FD9AFC242520924D98BE9C4E2477 /* GTMSessionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7ADEE57376C8D3479BB66152199D8F /* GTMSessionFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A112C0F21A62CB6F1AA8D917A6EEA6C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BEB3B8E94800605CAFAE7C6DF2385D4 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A2EA3607F93B73CF3286A82564EC8E5 /* ClarifaiOutputFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 594810EE168D2701B2E9F8A15BEE637B /* ClarifaiOutputFace.m */; };
+		7CE16B1BF75DF396768A0A3CFD968DB1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE92DBD64BB1FF1B83550844D075328 /* UIWebView+AFNetworking.m */; };
+		7E277015ACC4799ABFEEEB23CDCE9129 /* Clarifai-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5530C512CCEC2619EC2F6CD6F71F801 /* Clarifai-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F43785CA660CEBC49ABF810AAD8E888 /* ClarifaiCrop.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B36FD218B9978FF1D3699111DD83A33 /* ClarifaiCrop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8464D885FF7B8EFE7CC39BB6940E8BAE /* ClarifaiOutputRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D53CBC5ED07439E2983B3E6AE25C /* ClarifaiOutputRegion.m */; };
+		867AF39ACF99464A9107BBF7F2711F57 /* NSArray+Clarifai.m in Sources */ = {isa = PBXBuildFile; fileRef = F78B1073AB1C7C4D7D33054063906300 /* NSArray+Clarifai.m */; };
+		8852FD9AFC242520924D98BE9C4E2477 /* GTMSessionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C18F4E8DE41FBCF1485D378159DC7A7F /* GTMSessionFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E4608600AB08E94CFDAEFCE6E101AB4 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5461D992F0D803F0F05DF72B2849301D /* AFNetworking.framework */; };
-		8E801B01A27B303BA02A442A9758B0FF /* ClarifaiImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8813A8453DDE255D6B77D49D6120AC /* ClarifaiImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FA52325FAF445FA3ADC44BB4BA2DD5E /* NSDictionary+Clarifai.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EEBD6AEB8E30C67C5AEA1A4B0A4C29 /* NSDictionary+Clarifai.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91B551704C13C58FEF31FC939C488762 /* ClarifaiInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 49FB9E571EC7D21A90AF7507B7DC44C6 /* ClarifaiInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9264BD69AFA8EE74F0D7F0EBD74F762F /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 84CBA3858EF9AFC7B730DAA63D64E13D /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93DFC0CC12E763AE770017349EE009D1 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA556209E142784AF72D30A25125498 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		948458DC0A9308A2D8C018C37FB7BBDD /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6012BBED00B5AEF88A967EBCCF3684C5 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95C69447F517DB81437EDE0003486963 /* GTMSessionFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DCF20F5778C8C3F41434CBD33555D9 /* GTMSessionFetcherService.m */; };
+		8E801B01A27B303BA02A442A9758B0FF /* ClarifaiImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F55C57628290F80F6532F4A6F4C55DF4 /* ClarifaiImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA52325FAF445FA3ADC44BB4BA2DD5E /* NSDictionary+Clarifai.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BDEA99EFD855979762BDEA11D84DC92 /* NSDictionary+Clarifai.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91B551704C13C58FEF31FC939C488762 /* ClarifaiInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E4D03D83347FEE4E778A3D35AE1A3E4 /* ClarifaiInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9264BD69AFA8EE74F0D7F0EBD74F762F /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F21B5E4604ED5472F67074DC69887B89 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93DFC0CC12E763AE770017349EE009D1 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CEC481DFA245722B13DBF5E60E8E861 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		948458DC0A9308A2D8C018C37FB7BBDD /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 8463C9DBAC92DE4DFB875B0D0FF35777 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95C69447F517DB81437EDE0003486963 /* GTMSessionFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012004BEA68F8666637C172D538D0BC /* GTMSessionFetcherService.m */; };
 		967551D370060AE0F4BC86BA2FE66E6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159245C1D8294EF16CB016833D763E42 /* Foundation.framework */; };
-		96ECED15416E5EB43855901AFE1A2D25 /* ClarifaiOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CF166E1F3036BD8F0978780E844366 /* ClarifaiOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96ECED15416E5EB43855901AFE1A2D25 /* ClarifaiOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = C4CB38D9882AB43548A5F726816BE601 /* ClarifaiOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A00BCB20BEA7F329FA5C3C355D68C103 /* Pods-ImageRecognitionApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC873CB1C3BA0586BB83957759E5E8B5 /* Pods-ImageRecognitionApp-dummy.m */; };
-		A03D7F292A92821E0440B2FCD62B9DD0 /* ClarifaiInput.m in Sources */ = {isa = PBXBuildFile; fileRef = A6849F0E5F1C9008DF4934D138DA0CEE /* ClarifaiInput.m */; };
-		A0683729C856A2073D8915FBB29F16F6 /* ClarifaiApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4D01087AC8F1E7D9A0638C176174EE /* ClarifaiApp.m */; };
-		A16DBDFF2AC24970764A6D022D149D42 /* ClarifaiLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6500258466AB44980771C21FF1FE5C14 /* ClarifaiLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3591DEDA776B48C026E7F9144981E58 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B035EBFADFB77D7F3086C407F49BCA /* AFAutoPurgingImageCache.m */; };
-		A398D63C8DED664D99A864D79881A13C /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB1F435EB550D2D67617AB2880527C /* AFImageDownloader.m */; };
-		A5A023D9DFAAB1B2563F7931AACACFFD /* Clarifai-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7643CE8EDA0E1FDA971CB74D6C0AA48 /* Clarifai-dummy.m */; };
-		AE976B0E8E3DD81E4F49DBEF19D3C0AD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB5496FDCA9AF077752D29F8F8F26D3 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF6BE3B4595474608E3B844E1B368482 /* ClarifaiSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C70DFD796B4F5130B90107AF05FCF7 /* ClarifaiSearchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B05C496A6F67CE9F60DC711F402AB20A /* GTMDebugSelectorValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = B4946390A9A1F4B6367276A2B4B25EDB /* GTMDebugSelectorValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B16A078FC7FBC172A266A336AEF7F673 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D145AC021D51B48EE5354AC5406A1C82 /* UIRefreshControl+AFNetworking.m */; };
-		B33369AE8370729635C5D9F54B77C469 /* ClarifaiSearchTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7CF077F9D861D9BD61AF0A8F0603A /* ClarifaiSearchTerm.m */; };
-		B9A04CBBF007CB8AAF75D61C5EF4D81F /* GTMMethodCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E06C786DDE12EB113EC8DBFDA5557A0 /* GTMMethodCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A03D7F292A92821E0440B2FCD62B9DD0 /* ClarifaiInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E440FFBF2681C9062C01F0BB9077FC /* ClarifaiInput.m */; };
+		A0683729C856A2073D8915FBB29F16F6 /* ClarifaiApp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD30924E7563998577CBF42D51B25A3B /* ClarifaiApp.m */; };
+		A16DBDFF2AC24970764A6D022D149D42 /* ClarifaiLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 008F8CD9AFAD2384DE5C468DE3CBA8C6 /* ClarifaiLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3591DEDA776B48C026E7F9144981E58 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F319C16C53329CACD12667E6A0D76DBE /* AFAutoPurgingImageCache.m */; };
+		A398D63C8DED664D99A864D79881A13C /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8378601B6DB7BA53C6565C9576A151 /* AFImageDownloader.m */; };
+		A5A023D9DFAAB1B2563F7931AACACFFD /* Clarifai-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC353DBFD684B061616F97CC54373020 /* Clarifai-dummy.m */; };
+		AE976B0E8E3DD81E4F49DBEF19D3C0AD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C37598DAF26A4EBD3652CCC06B5FA5E /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF6BE3B4595474608E3B844E1B368482 /* ClarifaiSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = D1811020227211927F51C44A3EDC5860 /* ClarifaiSearchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B05C496A6F67CE9F60DC711F402AB20A /* GTMDebugSelectorValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = E458DCFF9AD6F773D59F042F7EC805A0 /* GTMDebugSelectorValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B16A078FC7FBC172A266A336AEF7F673 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3A5357B94220A9BBDF197BD064340F /* UIRefreshControl+AFNetworking.m */; };
+		B33369AE8370729635C5D9F54B77C469 /* ClarifaiSearchTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C044C4BF4C5167556E8BFA59E9A530C /* ClarifaiSearchTerm.m */; };
+		B9A04CBBF007CB8AAF75D61C5EF4D81F /* GTMMethodCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB9F56DEFA7A8CF44B49DD9D9F76DCA /* GTMMethodCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA2D29D9265012FAC7A88D9A8CCD9989 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A70021CC6BB93F3180DFA142F3A96E /* CoreGraphics.framework */; };
-		BA79539A246D5862B875CC17D4CAA380 /* ClarifaiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C801C50A0ECF2291CEF2530F86F98F8 /* ClarifaiModel.m */; };
+		BA79539A246D5862B875CC17D4CAA380 /* ClarifaiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B68BA8A3F5219777A086D1E91F44B0 /* ClarifaiModel.m */; };
 		BC22E83FBE012D2A1B6B72B886832AF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159245C1D8294EF16CB016833D763E42 /* Foundation.framework */; };
-		BE9415085BE2AB553F8B3470BE251332 /* ClarifaiSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 764345F83B57588717500B36237D11A1 /* ClarifaiSearchResult.m */; };
-		C34E24520624B382515A0F58185E6926 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 071F1775F077C122B35AB54C2B50BFC6 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C969C5DA8A1F017FD9CA9ACAD8E37814 /* ClarifaiConcept.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6580BC58FDC1076043E8CDB8A0834 /* ClarifaiConcept.m */; };
+		BE9415085BE2AB553F8B3470BE251332 /* ClarifaiSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A187290E0007AAFF542CAFC26F81C45E /* ClarifaiSearchResult.m */; };
+		C34E24520624B382515A0F58185E6926 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B64AABDC9B12502D0353BADDAA4232 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C969C5DA8A1F017FD9CA9ACAD8E37814 /* ClarifaiConcept.m in Sources */ = {isa = PBXBuildFile; fileRef = B789E9D17A0F235B1632966BB22859F5 /* ClarifaiConcept.m */; };
 		CE2EB8CE3176F8A1FAA78CC8786292CC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACFBA88A948B1EF6BFCF0A626F54EF1 /* SystemConfiguration.framework */; };
-		CEB2F0E229EF841D92C780C3FFDF1BEA /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FD0F122BE2916AEF0C670B72E46A2D /* AFSecurityPolicy.m */; };
-		CF287829627F26B2EB4382B897D06A0E /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DCE59E4A3054BF6080FC03835943DC /* AFNetworking-dummy.m */; };
-		D28734EDC84B2A7FBC4D5DCF95177BF8 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E912E4D928904F598ABDF547E75243 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D35029E9FCD142AC364674A75572E310 /* ClarifaiApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FF8C102D81BE1DE496D29A0713AEBD /* ClarifaiApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3F381B45ADFDDE51CA31F1E141236CA /* GTMSessionFetcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E429068C5527B72E70B032181040011E /* GTMSessionFetcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4E80BD7EAAB83200183110578A80591 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D81B6DA08D9B657377F2F175D36B5F /* AFURLSessionManager.m */; };
-		DA2F5A299DC9A8ECC5F73A66172E64BC /* GTMNSString+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B299EE1DD024BC1DA0500B2A2FAAD84 /* GTMNSString+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD887A93A200A87A51B3D00BD1B80D20 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 493B6D956D10C6335529A88BEEA89EBB /* AFNetworkReachabilityManager.m */; };
-		DF9559C3822E3C6119BE43E4EDFD7EEE /* GTMSessionFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F6EC78298484B2F4A91FC74F994B14 /* GTMSessionFetcherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E23B9A6F533461CB33C0FA6FB59E3AB2 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 05678C61C459EA761BA0E92640E762DD /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E56EC2F1361664203BA768C91FFF6494 /* ClarifaiLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49159415C84F776E61A354E3974DB84A /* ClarifaiLocation.m */; };
-		E7D23D2F163A34BEC60FD54BCCC22C76 /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CC2C5E010271BB001679DA039FA9E /* GTMNSDictionary+URLArguments.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CEB2F0E229EF841D92C780C3FFDF1BEA /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5064E608BD729131AC5A929EC2B1A25 /* AFSecurityPolicy.m */; };
+		CF287829627F26B2EB4382B897D06A0E /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F325405894DFCA77427544D926D9C0 /* AFNetworking-dummy.m */; };
+		D28734EDC84B2A7FBC4D5DCF95177BF8 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F020ADEE18487BFD21D5C706FD3D8E72 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D35029E9FCD142AC364674A75572E310 /* ClarifaiApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5CAD99A6A511E85A1BCFD59848C49E /* ClarifaiApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3F381B45ADFDDE51CA31F1E141236CA /* GTMSessionFetcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F740FBB72A4EB4B47C6D7D2BFC843382 /* GTMSessionFetcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4E80BD7EAAB83200183110578A80591 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E34C21E8DA97F4DC2575AD8AFC4726 /* AFURLSessionManager.m */; };
+		DA2F5A299DC9A8ECC5F73A66172E64BC /* GTMNSString+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 62812EA665C1EE8B0B3A732F49D4ADA5 /* GTMNSString+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD887A93A200A87A51B3D00BD1B80D20 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 952FF1D5AB14798D0B25454092122276 /* AFNetworkReachabilityManager.m */; };
+		DF9559C3822E3C6119BE43E4EDFD7EEE /* GTMSessionFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = 906D0959B936DD2B6106968F95265CEF /* GTMSessionFetcherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E23B9A6F533461CB33C0FA6FB59E3AB2 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F1F4F2EE31A6CB90C920758E763B7C /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E56EC2F1361664203BA768C91FFF6494 /* ClarifaiLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE3B5470D3FEBF2E1EDACC8CEA644FB /* ClarifaiLocation.m */; };
+		E7D23D2F163A34BEC60FD54BCCC22C76 /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 91452A1ECDD393DED14DDC1621BC12D5 /* GTMNSDictionary+URLArguments.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E7DC18AFA07D9008F189B6453288F3C7 /* Pods-ImageRecognitionApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C4A504D63949B21D781EC4D8962BAC1 /* Pods-ImageRecognitionApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAF16633DB3C992CF975BE4A2932D41C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A53A74FC85A3142E285105D8491B977 /* AFHTTPSessionManager.m */; };
-		EB15938DDFF64C73E908271827900B00 /* ClarifaiOutputFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = 803EC5AC8226178B12AFE9C1B0AE0046 /* ClarifaiOutputFocus.m */; };
-		F09EDD53B94234F5F8DAC4DCD5CD969E /* GTMSessionUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9B5D6F0B5C3957F497F1EE2684A8D2 /* GTMSessionUploadFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F10F2C08531108B02D9995DE5EDFDF94 /* ClarifaiOutputFace.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B10B604283ECD89134E23AA3D2FB0E9 /* ClarifaiOutputFace.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1CAA2EBDDFF558DEF98684F2479A7AF /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A1D1B1C9B2698939438EFE72F8EF87 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D899C7AA0D7FC20160091BB9D31CF3 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 73123B7AC64618C7195614E252967303 /* UIImageView+AFNetworking.m */; };
-		F4E294C07EE32FFCDCF7FF4D71D850BD /* GTMSessionUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D9602F3AEDC91485A09A3773E58896 /* GTMSessionUploadFetcher.m */; };
-		F5D23BDA33E10C6EAD3804163E15EC27 /* NSArray+Clarifai.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C423BD22086304AF2F9E4FD81FEE65 /* NSArray+Clarifai.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F80D880868150A02B87B9507F108746A /* ClarifaiOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CFB0CE6D2BE2C259D82D1FD3A3E41B /* ClarifaiOutput.m */; };
-		F84DD74BB7F612DE372F8C051420DF72 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F01CC3C49A70D9A35FD664EF6EC726A /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDA234256D41A87A70D86CFADEC15653 /* ResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 356FA098466B1939C0E263B0A1D5ACD5 /* ResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEF6EACE962EAE70E2EAC5F3C83EF7C8 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 17CAC0201A463D84FECD8A583C3EC55D /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAF16633DB3C992CF975BE4A2932D41C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9222E94300A0E209B244E23D6E7351 /* AFHTTPSessionManager.m */; };
+		EB15938DDFF64C73E908271827900B00 /* ClarifaiOutputFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = 622AEE9805977734C9BCB1290DA2E2A4 /* ClarifaiOutputFocus.m */; };
+		F09EDD53B94234F5F8DAC4DCD5CD969E /* GTMSessionUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = E7FB0460611557AD66CBEFC6CBC59E5B /* GTMSessionUploadFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F10F2C08531108B02D9995DE5EDFDF94 /* ClarifaiOutputFace.h in Headers */ = {isa = PBXBuildFile; fileRef = EE39C88E4351CABA4E404196F739F12C /* ClarifaiOutputFace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1CAA2EBDDFF558DEF98684F2479A7AF /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 8172C743021FA34C4AA54F4DD457F4EA /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2D899C7AA0D7FC20160091BB9D31CF3 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D741C59ED02B9CC21E4F978FA77E9C91 /* UIImageView+AFNetworking.m */; };
+		F4E294C07EE32FFCDCF7FF4D71D850BD /* GTMSessionUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C135B05C496DD067AE808DDB6CFA49 /* GTMSessionUploadFetcher.m */; };
+		F5D23BDA33E10C6EAD3804163E15EC27 /* NSArray+Clarifai.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA09256162E5DB030542A74A94585F3 /* NSArray+Clarifai.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F80D880868150A02B87B9507F108746A /* ClarifaiOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD8ADCDCDC69F23E841323F2AEACDED /* ClarifaiOutput.m */; };
+		F84DD74BB7F612DE372F8C051420DF72 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BEA676C87B327DF49C165D0A408DEED /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDA234256D41A87A70D86CFADEC15653 /* ResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A2309D489856AB0E2C1DDA8FFA74EF /* ResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEF6EACE962EAE70E2EAC5F3C83EF7C8 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = D51215BA64C059BCC7A5C0D3A11DE250 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,147 +158,148 @@
 
 /* Begin PBXFileReference section */
 		004A90F79B893972AADEB471A9CEA618 /* Pods-ImageRecognitionApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageRecognitionApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0141DA65096CE99C60E399E600E3D50A /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
-		03E4B4D7890142EF50BC3BFD6605C170 /* GTMSessionFetcher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMSessionFetcher.xcconfig; sourceTree = "<group>"; };
-		052C1801203693BB6949E4381DE3873D /* ClarifaiModelVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiModelVersion.m; path = Clarifai/Classes/ClarifaiModelVersion.m; sourceTree = "<group>"; };
-		05678C61C459EA761BA0E92640E762DD /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		071F1775F077C122B35AB54C2B50BFC6 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
-		09E912E4D928904F598ABDF547E75243 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		0C801C50A0ECF2291CEF2530F86F98F8 /* ClarifaiModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiModel.m; path = Clarifai/Classes/ClarifaiModel.m; sourceTree = "<group>"; };
+		008F8CD9AFAD2384DE5C468DE3CBA8C6 /* ClarifaiLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiLocation.h; path = Clarifai/Classes/ClarifaiLocation.h; sourceTree = "<group>"; };
+		011375F116ECA9F2E53936BEEC740E0F /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		04FB3010875287E55D9901DF9F9DF01C /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		07B68BA8A3F5219777A086D1E91F44B0 /* ClarifaiModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiModel.m; path = Clarifai/Classes/ClarifaiModel.m; sourceTree = "<group>"; };
+		0A162F2AEFB01E36A403E705776A3BA9 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		0A1CE3FBEF39138BC2A5226BB9D4E919 /* GTMSessionFetcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GTMSessionFetcher.modulemap; sourceTree = "<group>"; };
+		0A5CAD99A6A511E85A1BCFD59848C49E /* ClarifaiApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiApp.h; path = Clarifai/Classes/ClarifaiApp.h; sourceTree = "<group>"; };
+		0BEA676C87B327DF49C165D0A408DEED /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		0D39D513DA3519FA56B3F9657B9F9990 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		0E06C786DDE12EB113EC8DBFDA5557A0 /* GTMMethodCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMMethodCheck.h; path = DebugUtils/GTMMethodCheck.h; sourceTree = "<group>"; };
-		0E5A6BD73DA374B7678D4D13E78AF560 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
-		107A8339EF75CD3C636C7E125B8DBCF4 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		0DB9F56DEFA7A8CF44B49DD9D9F76DCA /* GTMMethodCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMMethodCheck.h; path = DebugUtils/GTMMethodCheck.h; sourceTree = "<group>"; };
 		1121D4AB0DF1D89C90ADF253BE0EC2A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12B9670B3CA36904F22CB792877BABBE /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
-		14798F29A3F94D41C26734FCFB9B5CE6 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		13E440FFBF2681C9062C01F0BB9077FC /* ClarifaiInput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiInput.m; path = Clarifai/Classes/ClarifaiInput.m; sourceTree = "<group>"; };
+		14A95BD4EEA1F08F8163A55C78393FC7 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
 		159245C1D8294EF16CB016833D763E42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1746200901A6DD9CDD6E601681BA119F /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		17CAC0201A463D84FECD8A583C3EC55D /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
-		1822CBE1C1CBFB28F52319309A6D597D /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
-		1BE7EE7702091CCF58009C826C717798 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
-		1DBB1F435EB550D2D67617AB2880527C /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		1E2CC2C5E010271BB001679DA039FA9E /* GTMNSDictionary+URLArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSDictionary+URLArguments.m"; path = "Foundation/GTMNSDictionary+URLArguments.m"; sourceTree = "<group>"; };
-		1ECD8AFDD6A472D222CBD5D6A7C38D88 /* ClarifaiModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiModel.h; path = Clarifai/Classes/ClarifaiModel.h; sourceTree = "<group>"; };
-		20D81B6DA08D9B657377F2F175D36B5F /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		21B035EBFADFB77D7F3086C407F49BCA /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		17EBB5E96018BF707FC9E82D09936D82 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		180F689B8A4D50CFC895F741C061B4F1 /* GTMSessionFetcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-prefix.pch"; sourceTree = "<group>"; };
+		185A899ED58B4DE0B1C7AE6527BFECA8 /* ClarifaiOutputRegion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiOutputRegion.h; path = Clarifai/Classes/ClarifaiOutputRegion.h; sourceTree = "<group>"; };
+		19C862596669A10EDB1901B85A9E7371 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		1A6CAF801C2D476E85547F7BD219E404 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
 		22452EFA1B6EAF329885F12686A84450 /* Pods_ImageRecognitionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageRecognitionApp.framework; path = "Pods-ImageRecognitionApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26376DA181ED57842271624347284F15 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AFNetworking.modulemap; sourceTree = "<group>"; };
-		2B8813A8453DDE255D6B77D49D6120AC /* ClarifaiImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiImage.h; path = Clarifai/Classes/ClarifaiImage.h; sourceTree = "<group>"; };
-		2BBBD682207B7FF4BA844599900D4329 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		2DB76834ADB4807724B0868592E1537B /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		2E3B89930E5AC1860AA3335D3B11A912 /* GTMNSDictionary+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSDictionary+URLArguments.h"; path = "Foundation/GTMNSDictionary+URLArguments.h"; sourceTree = "<group>"; };
-		2E8E58C245AC9D68CF927F73588AB52B /* ClarifaiOutputRegion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiOutputRegion.h; path = Clarifai/Classes/ClarifaiOutputRegion.h; sourceTree = "<group>"; };
-		31B9BE0A263540FF674667750A29040C /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
-		32A1D1B1C9B2698939438EFE72F8EF87 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		33CBB26E824393A61B0FA27454333E77 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		354DB9EE47BB520E157A51A2617A931D /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
-		356FA098466B1939C0E263B0A1D5ACD5 /* ResponseSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ResponseSerializer.h; path = Clarifai/Classes/ResponseSerializer.h; sourceTree = "<group>"; };
-		37F81D9B4DFD6ED5FFB9DFEED4FA1949 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C9B658B41F8EE7DA16B8697A1221817 /* ClarifaiGeo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiGeo.h; path = Clarifai/Classes/ClarifaiGeo.h; sourceTree = "<group>"; };
-		4087EDA3BA0AA8BD89B08228E9B02EEB /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
-		420D052454D5599CBAAF88E5FFCFF718 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
-		4280E50EAD6FF66E4A09EE3A3849A2B4 /* GTMSessionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcher.m; path = Source/GTMSessionFetcher.m; sourceTree = "<group>"; };
-		4354002EFB7328E89C6A222AB477B117 /* ClarifaiOutputFocus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiOutputFocus.h; path = Clarifai/Classes/ClarifaiOutputFocus.h; sourceTree = "<group>"; };
-		43EEBD6AEB8E30C67C5AEA1A4B0A4C29 /* NSDictionary+Clarifai.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Clarifai.h"; path = "Clarifai/Classes/NSDictionary+Clarifai.h"; sourceTree = "<group>"; };
-		4658BA3A8D4C43DB8AE80AD67621DB1D /* ClarifaiOutputRegion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiOutputRegion.m; path = Clarifai/Classes/ClarifaiOutputRegion.m; sourceTree = "<group>"; };
-		48FF8C102D81BE1DE496D29A0713AEBD /* ClarifaiApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiApp.h; path = Clarifai/Classes/ClarifaiApp.h; sourceTree = "<group>"; };
-		49159415C84F776E61A354E3974DB84A /* ClarifaiLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiLocation.m; path = Clarifai/Classes/ClarifaiLocation.m; sourceTree = "<group>"; };
-		493B6D956D10C6335529A88BEEA89EBB /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		49FB9E571EC7D21A90AF7507B7DC44C6 /* ClarifaiInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiInput.h; path = Clarifai/Classes/ClarifaiInput.h; sourceTree = "<group>"; };
-		4A53A74FC85A3142E285105D8491B977 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		4DB5496FDCA9AF077752D29F8F8F26D3 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		4FE7CF077F9D861D9BD61AF0A8F0603A /* ClarifaiSearchTerm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiSearchTerm.m; path = Clarifai/Classes/ClarifaiSearchTerm.m; sourceTree = "<group>"; };
-		500A66A435A5A1EA534800522B4116A7 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		50A65510E1E04C7B26424608B1CC6E6C /* Clarifai.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Clarifai.modulemap; sourceTree = "<group>"; };
-		519FF451CD43DE575F0C930D964537D9 /* Clarifai-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Clarifai-prefix.pch"; sourceTree = "<group>"; };
+		24A0FB91461F66CD2D21172BF1F6FFD9 /* GTMDebugThreadValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugThreadValidation.h; path = DebugUtils/GTMDebugThreadValidation.h; sourceTree = "<group>"; };
+		26E2CE4A82CEA637F05ABE69B5B13C90 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		292C6D0D56FB6F7C1975A687EC153A39 /* ClarifaiModelVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiModelVersion.h; path = Clarifai/Classes/ClarifaiModelVersion.h; sourceTree = "<group>"; };
+		31E34C21E8DA97F4DC2575AD8AFC4726 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		326158A70A7683E6D8E380E0E53FBF2D /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		33526BEE81BF0121361C0603E2A138E1 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		33AB82C0248774DAE9407C42114AF4F8 /* GTMSessionFetcherLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherLogging.h; path = Source/GTMSessionFetcherLogging.h; sourceTree = "<group>"; };
+		3C044C4BF4C5167556E8BFA59E9A530C /* ClarifaiSearchTerm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiSearchTerm.m; path = Clarifai/Classes/ClarifaiSearchTerm.m; sourceTree = "<group>"; };
+		3EA09256162E5DB030542A74A94585F3 /* NSArray+Clarifai.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Clarifai.h"; path = "Clarifai/Classes/NSArray+Clarifai.h"; sourceTree = "<group>"; };
+		3F3DB256D0EA100BAE55B52F7819E0C6 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		434F7D9D1AD71BB4E968258834F1D729 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		45A2309D489856AB0E2C1DDA8FFA74EF /* ResponseSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ResponseSerializer.h; path = Clarifai/Classes/ResponseSerializer.h; sourceTree = "<group>"; };
+		485768DC51939C6BD301B8A418BD665B /* ResponseSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ResponseSerializer.m; path = Clarifai/Classes/ResponseSerializer.m; sourceTree = "<group>"; };
+		4BDEA99EFD855979762BDEA11D84DC92 /* NSDictionary+Clarifai.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Clarifai.h"; path = "Clarifai/Classes/NSDictionary+Clarifai.h"; sourceTree = "<group>"; };
+		4BFD1B4561BC32A4E23D1586866E17C9 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		4CEC481DFA245722B13DBF5E60E8E861 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		4EE92DBD64BB1FF1B83550844D075328 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		4F0DFC92CCE4F9B8E9BE9DC82CCBE68C /* Clarifai.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Clarifai.xcconfig; sourceTree = "<group>"; };
 		5461D992F0D803F0F05DF72B2849301D /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		548E6905012D0819007EFE170AA48F9C /* ClarifaiGeo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiGeo.h; path = Clarifai/Classes/ClarifaiGeo.h; sourceTree = "<group>"; };
 		58C1B52AAE49A52F1DA2DE59CDF8A836 /* Pods-ImageRecognitionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageRecognitionApp.release.xcconfig"; sourceTree = "<group>"; };
-		5B299EE1DD024BC1DA0500B2A2FAAD84 /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+URLArguments.h"; path = "Foundation/GTMNSString+URLArguments.h"; sourceTree = "<group>"; };
+		594810EE168D2701B2E9F8A15BEE637B /* ClarifaiOutputFace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiOutputFace.m; path = Clarifai/Classes/ClarifaiOutputFace.m; sourceTree = "<group>"; };
 		5B78D5C05DD6DE39F03CE63A0620700E /* Pods-ImageRecognitionApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageRecognitionApp-resources.sh"; sourceTree = "<group>"; };
-		5D6F05A47F832C2778B0CACB83EB71B6 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
-		5F9647B787B0565A7869735E40686A87 /* NSArray+Clarifai.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Clarifai.m"; path = "Clarifai/Classes/NSArray+Clarifai.m"; sourceTree = "<group>"; };
-		600C4857039BF82DE90612E86EC1CC56 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
-		6012BBED00B5AEF88A967EBCCF3684C5 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		6500258466AB44980771C21FF1FE5C14 /* ClarifaiLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiLocation.h; path = Clarifai/Classes/ClarifaiLocation.h; sourceTree = "<group>"; };
-		651FF2F90600BA8A9564C33AAC24BAEB /* Clarifai-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Clarifai-umbrella.h"; sourceTree = "<group>"; };
+		5C18CE54CE7FC038FFA2D8229EBA676B /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		5CD0D53CBC5ED07439E2983B3E6AE25C /* ClarifaiOutputRegion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiOutputRegion.m; path = Clarifai/Classes/ClarifaiOutputRegion.m; sourceTree = "<group>"; };
+		6012004BEA68F8666637C172D538D0BC /* GTMSessionFetcherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherService.m; path = Source/GTMSessionFetcherService.m; sourceTree = "<group>"; };
+		620EA8D2C723092BB20D81B059CC6FF7 /* GTMSessionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcher.m; path = Source/GTMSessionFetcher.m; sourceTree = "<group>"; };
+		622AEE9805977734C9BCB1290DA2E2A4 /* ClarifaiOutputFocus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiOutputFocus.m; path = Clarifai/Classes/ClarifaiOutputFocus.m; sourceTree = "<group>"; };
+		62812EA665C1EE8B0B3A732F49D4ADA5 /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+URLArguments.h"; path = "Foundation/GTMNSString+URLArguments.h"; sourceTree = "<group>"; };
+		62DF7DDC4330924C9615E97F6242D53C /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		65A70021CC6BB93F3180DFA142F3A96E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		65D2A392B953D940ADA54C1B401C952C /* GTMSessionFetcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GTMSessionFetcher.modulemap; sourceTree = "<group>"; };
-		6A2D15A3E39827DD6FB655A78B70A6FF /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+URLArguments.m"; path = "Foundation/GTMNSString+URLArguments.m"; sourceTree = "<group>"; };
-		6F01CC3C49A70D9A35FD664EF6EC726A /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		6F45AD2ED81A79191BBA90AD59862FCF /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		7038C11BE3A7B40C7934B7570570EB1A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70DF26EB9982E27D6056260B555955D8 /* GTMSessionFetcherLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherLogging.m; path = Source/GTMSessionFetcherLogging.m; sourceTree = "<group>"; };
-		7124561E2533110CDF8EF8E4D3DDF788 /* ClarifaiGeo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiGeo.m; path = Clarifai/Classes/ClarifaiGeo.m; sourceTree = "<group>"; };
-		71DCE59E4A3054BF6080FC03835943DC /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		73123B7AC64618C7195614E252967303 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		764345F83B57588717500B36237D11A1 /* ClarifaiSearchResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiSearchResult.m; path = Clarifai/Classes/ClarifaiSearchResult.m; sourceTree = "<group>"; };
+		6B36FD218B9978FF1D3699111DD83A33 /* ClarifaiCrop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiCrop.h; path = Clarifai/Classes/ClarifaiCrop.h; sourceTree = "<group>"; };
+		6DD8ADCDCDC69F23E841323F2AEACDED /* ClarifaiOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiOutput.m; path = Clarifai/Classes/ClarifaiOutput.m; sourceTree = "<group>"; };
+		6E4D03D83347FEE4E778A3D35AE1A3E4 /* ClarifaiInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiInput.h; path = Clarifai/Classes/ClarifaiInput.h; sourceTree = "<group>"; };
+		728835C682B5F12EDBC547D11C7EE500 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		73BFAC0CC8D27B52F890AD475ED4E9E3 /* ClarifaiSearchTerm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiSearchTerm.h; path = Clarifai/Classes/ClarifaiSearchTerm.h; sourceTree = "<group>"; };
+		767F229199339C42D60F1BCDC5924356 /* NSDictionary+Clarifai.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Clarifai.m"; path = "Clarifai/Classes/NSDictionary+Clarifai.m"; sourceTree = "<group>"; };
+		790C30818C31360591F97DC52AE5D116 /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+URLArguments.m"; path = "Foundation/GTMNSString+URLArguments.m"; sourceTree = "<group>"; };
 		7CF5DF8DACAFD33FDC254D7F0C013B05 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMSessionFetcher.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F7ADEE57376C8D3479BB66152199D8F /* GTMSessionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcher.h; path = Source/GTMSessionFetcher.h; sourceTree = "<group>"; };
-		7FA556209E142784AF72D30A25125498 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		803EC5AC8226178B12AFE9C1B0AE0046 /* ClarifaiOutputFocus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiOutputFocus.m; path = Clarifai/Classes/ClarifaiOutputFocus.m; sourceTree = "<group>"; };
-		8263C49B81230691EAEF6885FA228B56 /* ClarifaiConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiConstants.h; path = Clarifai/Classes/ClarifaiConstants.h; sourceTree = "<group>"; };
+		7F58980883F2B13870BC63C4411D66AF /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		7F96AEF0C065B9C81F119FB31A911B1F /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		7F997694D34D2C2066A5330728987714 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		8172C743021FA34C4AA54F4DD457F4EA /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		82D14FC56358D0EF8BBE33A1B6047DB5 /* Clarifai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Clarifai.framework; path = Clarifai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		84CBA3858EF9AFC7B730DAA63D64E13D /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		87C423BD22086304AF2F9E4FD81FEE65 /* NSArray+Clarifai.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Clarifai.h"; path = "Clarifai/Classes/NSArray+Clarifai.h"; sourceTree = "<group>"; };
-		88FD0F122BE2916AEF0C670B72E46A2D /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		89C03D7F313CDD5F86960EA0F32E9E09 /* ClarifaiCrop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiCrop.h; path = Clarifai/Classes/ClarifaiCrop.h; sourceTree = "<group>"; };
-		8A33FA98D9A6CFCA10385492D614570C /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		8A4D01087AC8F1E7D9A0638C176174EE /* ClarifaiApp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiApp.m; path = Clarifai/Classes/ClarifaiApp.m; sourceTree = "<group>"; };
+		8463C9DBAC92DE4DFB875B0D0FF35777 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		8BEB3B8E94800605CAFAE7C6DF2385D4 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		8C37598DAF26A4EBD3652CCC06B5FA5E /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		8DB51D107E36FCB2BB2F0EF074D116D0 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90250EFCC09B92E82F62DC9C3F8E6050 /* GTMSessionFetcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-prefix.pch"; sourceTree = "<group>"; };
-		911822CE9C6715681C6B5BBE1665C0A8 /* ResponseSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ResponseSerializer.m; path = Clarifai/Classes/ResponseSerializer.m; sourceTree = "<group>"; };
-		912092017D5BF4FD00EE9B53ABB9079D /* ClarifaiModelVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiModelVersion.h; path = Clarifai/Classes/ClarifaiModelVersion.h; sourceTree = "<group>"; };
+		906D0959B936DD2B6106968F95265CEF /* GTMSessionFetcherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherService.h; path = Source/GTMSessionFetcherService.h; sourceTree = "<group>"; };
+		91452A1ECDD393DED14DDC1621BC12D5 /* GTMNSDictionary+URLArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSDictionary+URLArguments.m"; path = "Foundation/GTMNSDictionary+URLArguments.m"; sourceTree = "<group>"; };
+		919874D683AD8173CC97824194467DCD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98CF166E1F3036BD8F0978780E844366 /* ClarifaiOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiOutput.h; path = Clarifai/Classes/ClarifaiOutput.h; sourceTree = "<group>"; };
-		9A34D864B1C013EFBB3311285D1D6EA0 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		952FF1D5AB14798D0B25454092122276 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		9ADAF03A765A3FCAC6E0673E44664E07 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		9B10B604283ECD89134E23AA3D2FB0E9 /* ClarifaiOutputFace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiOutputFace.h; path = Clarifai/Classes/ClarifaiOutputFace.h; sourceTree = "<group>"; };
 		9C4A504D63949B21D781EC4D8962BAC1 /* Pods-ImageRecognitionApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageRecognitionApp-umbrella.h"; sourceTree = "<group>"; };
-		A0C70DFD796B4F5130B90107AF05FCF7 /* ClarifaiSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiSearchResult.h; path = Clarifai/Classes/ClarifaiSearchResult.h; sourceTree = "<group>"; };
-		A13F5C8C5C9035843EE23D330ADC559B /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		9DE3B5470D3FEBF2E1EDACC8CEA644FB /* ClarifaiLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiLocation.m; path = Clarifai/Classes/ClarifaiLocation.m; sourceTree = "<group>"; };
+		9E8C34550901EEF66DF82FB8CCC31919 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		A0290014B9C9AF7039482F1BBD92CF76 /* ClarifaiConcept.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiConcept.h; path = Clarifai/Classes/ClarifaiConcept.h; sourceTree = "<group>"; };
+		A187290E0007AAFF542CAFC26F81C45E /* ClarifaiSearchResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiSearchResult.m; path = Clarifai/Classes/ClarifaiSearchResult.m; sourceTree = "<group>"; };
+		A1B64AABDC9B12502D0353BADDAA4232 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
 		A23AFD7B41268E1E786E644EE8898A72 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2D9602F3AEDC91485A09A3773E58896 /* GTMSessionUploadFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionUploadFetcher.m; path = Source/GTMSessionUploadFetcher.m; sourceTree = "<group>"; };
-		A502511A5EF002D2F03D5CE132A9B906 /* NSDictionary+Clarifai.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Clarifai.m"; path = "Clarifai/Classes/NSDictionary+Clarifai.m"; sourceTree = "<group>"; };
-		A5CFB0CE6D2BE2C259D82D1FD3A3E41B /* ClarifaiOutput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiOutput.m; path = Clarifai/Classes/ClarifaiOutput.m; sourceTree = "<group>"; };
-		A67C8A20C25098153B928570D8C2BE3B /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
-		A6849F0E5F1C9008DF4934D138DA0CEE /* ClarifaiInput.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiInput.m; path = Clarifai/Classes/ClarifaiInput.m; sourceTree = "<group>"; };
-		A7643CE8EDA0E1FDA971CB74D6C0AA48 /* Clarifai-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Clarifai-dummy.m"; sourceTree = "<group>"; };
+		A25E4ECC952B70771424ABDF72EBB2FD /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
 		A881D270DF7F3B33EE258467A6598CA1 /* Pods-ImageRecognitionApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageRecognitionApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		A9DCF20F5778C8C3F41434CBD33555D9 /* GTMSessionFetcherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherService.m; path = Source/GTMSessionFetcherService.m; sourceTree = "<group>"; };
-		AB0C555C9B7398B9410515151E7C3ECE /* GTMDebugThreadValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugThreadValidation.h; path = DebugUtils/GTMDebugThreadValidation.h; sourceTree = "<group>"; };
-		AD129CA23A211E6F0BB0286A845CE746 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD244B379D930433EC22E65E8A0D29CB /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		B2F6EC78298484B2F4A91FC74F994B14 /* GTMSessionFetcherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherService.h; path = Source/GTMSessionFetcherService.h; sourceTree = "<group>"; };
-		B4946390A9A1F4B6367276A2B4B25EDB /* GTMDebugSelectorValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugSelectorValidation.h; path = DebugUtils/GTMDebugSelectorValidation.h; sourceTree = "<group>"; };
-		B81BECFD19BA50921E67C1F970103132 /* ClarifaiSearchTerm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiSearchTerm.h; path = Clarifai/Classes/ClarifaiSearchTerm.h; sourceTree = "<group>"; };
-		BB9B5D6F0B5C3957F497F1EE2684A8D2 /* GTMSessionUploadFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionUploadFetcher.h; path = Source/GTMSessionUploadFetcher.h; sourceTree = "<group>"; };
-		BBB7BAC795473C65ACF7FCE44FDFC471 /* Clarifai.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Clarifai.xcconfig; sourceTree = "<group>"; };
-		BC8EF5DA27A25161948D2532B327C08B /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
-		BCD7D5727642B6BB1EF9F71528272E29 /* ClarifaiConcept.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiConcept.h; path = Clarifai/Classes/ClarifaiConcept.h; sourceTree = "<group>"; };
-		C3A7BD3DF61C4D26579638D18F9FF2E4 /* GTMSessionFetcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMSessionFetcher-dummy.m"; sourceTree = "<group>"; };
-		C494DA9F02160BDA2E947F81B0A63BFB /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
-		C9C6580BC58FDC1076043E8CDB8A0834 /* ClarifaiConcept.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiConcept.m; path = Clarifai/Classes/ClarifaiConcept.m; sourceTree = "<group>"; };
-		CA5B35C8133BCD5F4BD2FA4B496F26C2 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		CA6A82AD7A85D63073FF5BEC60641E2B /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		A89D168BD7993B25E74581D6244A2D1F /* ClarifaiOutputFocus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiOutputFocus.h; path = Clarifai/Classes/ClarifaiOutputFocus.h; sourceTree = "<group>"; };
+		A94F5D51E8C2B8BC73AC66F2ED679F9B /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		AA25EBAE9C7BC3ED34AACF8F14E104DE /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		AC6CA4691225D56F386A98A2C8E032A1 /* GTMNSDictionary+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSDictionary+URLArguments.h"; path = "Foundation/GTMNSDictionary+URLArguments.h"; sourceTree = "<group>"; };
+		AE5D509ED50405CC7C4E35FB5E712D5E /* GTMSessionFetcherLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherLogging.m; path = Source/GTMSessionFetcherLogging.m; sourceTree = "<group>"; };
+		AF68EA1FFD3C02DFDA4A0BB1F244B6F4 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		B487DE26E4E78BCF70CB6B622BF2F4FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B789E9D17A0F235B1632966BB22859F5 /* ClarifaiConcept.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiConcept.m; path = Clarifai/Classes/ClarifaiConcept.m; sourceTree = "<group>"; };
+		B8B03735B6270C893A86325AF8444DC1 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		BD4029BA3C66AE3A8544ED4FCB62DCA8 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		BD8678874781E6C900E41921186937C7 /* ClarifaiModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiModel.h; path = Clarifai/Classes/ClarifaiModel.h; sourceTree = "<group>"; };
+		BD94E0ECCB79315BA3FF792A1FD4CEBB /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		BE3A5357B94220A9BBDF197BD064340F /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		BF41AD31EF86F6895C4C56E394833C1E /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		BFA508C7F1EC3D8A663BC183333ACE54 /* ClarifaiGeo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiGeo.m; path = Clarifai/Classes/ClarifaiGeo.m; sourceTree = "<group>"; };
+		C18F4E8DE41FBCF1485D378159DC7A7F /* GTMSessionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcher.h; path = Source/GTMSessionFetcher.h; sourceTree = "<group>"; };
+		C1C135B05C496DD067AE808DDB6CFA49 /* GTMSessionUploadFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionUploadFetcher.m; path = Source/GTMSessionUploadFetcher.m; sourceTree = "<group>"; };
+		C3D630301EC5C1DCDC95360A25886403 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		C4CB38D9882AB43548A5F726816BE601 /* ClarifaiOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiOutput.h; path = Clarifai/Classes/ClarifaiOutput.h; sourceTree = "<group>"; };
+		C5530C512CCEC2619EC2F6CD6F71F801 /* Clarifai-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Clarifai-umbrella.h"; sourceTree = "<group>"; };
+		CB1C93ED70B0E6F9E53E07140DE9EDC6 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		CD30924E7563998577CBF42D51B25A3B /* ClarifaiApp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiApp.m; path = Clarifai/Classes/ClarifaiApp.m; sourceTree = "<group>"; };
+		CDE925F4CAFA1ACAE96C4847D3A4C1EB /* Clarifai-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Clarifai-prefix.pch"; sourceTree = "<group>"; };
+		D043E17459984A680E2F1294EE6204E2 /* ClarifaiModelVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiModelVersion.m; path = Clarifai/Classes/ClarifaiModelVersion.m; sourceTree = "<group>"; };
 		D13590D6351E029CAFE4835B5EB0A0C7 /* Pods-ImageRecognitionApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImageRecognitionApp.modulemap"; sourceTree = "<group>"; };
-		D145AC021D51B48EE5354AC5406A1C82 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		D2AAAC38331E0089A28F2BF0E4493E87 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		D68E325377EE059024DABCDCDF72C8E7 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		D706A492B224BAC2797E736615506035 /* ClarifaiImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiImage.m; path = Clarifai/Classes/ClarifaiImage.m; sourceTree = "<group>"; };
+		D1811020227211927F51C44A3EDC5860 /* ClarifaiSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiSearchResult.h; path = Clarifai/Classes/ClarifaiSearchResult.h; sourceTree = "<group>"; };
+		D4F1F4F2EE31A6CB90C920758E763B7C /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		D51215BA64C059BCC7A5C0D3A11DE250 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		D6F325405894DFCA77427544D926D9C0 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		D741C59ED02B9CC21E4F978FA77E9C91 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		D7FD1B4D125481CECC411144D70BEB90 /* Pods-ImageRecognitionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageRecognitionApp.debug.xcconfig"; sourceTree = "<group>"; };
-		DA639395998B3C4022AC907F1874FFDC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF302BCE5E2FB89BB93AF6A54D4A4A05 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		E23B988E037EBBFF0D76681426E3D7D3 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		E28A16625A229DA5FE92ACC9BC4D41DA /* ClarifaiOutputFace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiOutputFace.m; path = Clarifai/Classes/ClarifaiOutputFace.m; sourceTree = "<group>"; };
-		E30ADC8942A8ED026D98C3864C01DDEA /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		E429068C5527B72E70B032181040011E /* GTMSessionFetcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-umbrella.h"; sourceTree = "<group>"; };
+		D9C64BA918AE2D4D1139940A969E93A3 /* ClarifaiConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiConstants.h; path = Clarifai/Classes/ClarifaiConstants.h; sourceTree = "<group>"; };
+		DD9222E94300A0E209B244E23D6E7351 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		E458DCFF9AD6F773D59F042F7EC805A0 /* GTMDebugSelectorValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugSelectorValidation.h; path = DebugUtils/GTMDebugSelectorValidation.h; sourceTree = "<group>"; };
+		E5064E608BD729131AC5A929EC2B1A25 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		E655DD6651326EE1B8FBF57A8E2D6077 /* Clarifai.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Clarifai.modulemap; sourceTree = "<group>"; };
 		E68BF1FECBBE463B3100406DC21410C5 /* Pods-ImageRecognitionApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageRecognitionApp-frameworks.sh"; sourceTree = "<group>"; };
+		E6C2243E7A519077F987C8D480D52E5F /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		E72D45284065351A6036CCFE6C4C511B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7FB0460611557AD66CBEFC6CBC59E5B /* GTMSessionUploadFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionUploadFetcher.h; path = Source/GTMSessionUploadFetcher.h; sourceTree = "<group>"; };
+		E990FCB9624B0DBD8567C622CE26F1BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA312C6EE4515573F2ED86787D11E53D /* GTMSessionFetcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMSessionFetcher-dummy.m"; sourceTree = "<group>"; };
 		EACFBA88A948B1EF6BFCF0A626F54EF1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		F0A380B27C2FEE720C9F1FB6835941CE /* GTMSessionFetcherLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherLogging.h; path = Source/GTMSessionFetcherLogging.h; sourceTree = "<group>"; };
-		FA85653804686181BCD3CD0E4548DD00 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		EB8378601B6DB7BA53C6565C9576A151 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		EC24673BFDE3D208CBC38968A3281531 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		EC353DBFD684B061616F97CC54373020 /* Clarifai-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Clarifai-dummy.m"; sourceTree = "<group>"; };
+		EE39C88E4351CABA4E404196F739F12C /* ClarifaiOutputFace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiOutputFace.h; path = Clarifai/Classes/ClarifaiOutputFace.h; sourceTree = "<group>"; };
+		F020ADEE18487BFD21D5C706FD3D8E72 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		F21B5E4604ED5472F67074DC69887B89 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		F319C16C53329CACD12667E6A0D76DBE /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		F3FDBBF6FA4E0BEDE85E595916BAA2BF /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		F55C57628290F80F6532F4A6F4C55DF4 /* ClarifaiImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClarifaiImage.h; path = Clarifai/Classes/ClarifaiImage.h; sourceTree = "<group>"; };
+		F740FBB72A4EB4B47C6D7D2BFC843382 /* GTMSessionFetcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-umbrella.h"; sourceTree = "<group>"; };
+		F78B1073AB1C7C4D7D33054063906300 /* NSArray+Clarifai.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Clarifai.m"; path = "Clarifai/Classes/NSArray+Clarifai.m"; sourceTree = "<group>"; };
 		FC873CB1C3BA0586BB83957759E5E8B5 /* Pods-ImageRecognitionApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageRecognitionApp-dummy.m"; sourceTree = "<group>"; };
-		FE683525196BBFDBCB3FC2A7B5F7C6B5 /* ClarifaiCrop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiCrop.m; path = Clarifai/Classes/ClarifaiCrop.m; sourceTree = "<group>"; };
+		FD027FCD9A4290ECDB48078E1F96A3E5 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		FD61CD9F70F36EFD24A01045085E225C /* ClarifaiImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiImage.m; path = Clarifai/Classes/ClarifaiImage.m; sourceTree = "<group>"; };
+		FF3B2901EF25D1ACA5BD279F61231742 /* ClarifaiCrop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClarifaiCrop.m; path = Clarifai/Classes/ClarifaiCrop.m; sourceTree = "<group>"; };
+		FF84894412B9F36F192C40656043E68C /* GTMSessionFetcher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMSessionFetcher.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -351,35 +352,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B729ECC91CFF180E583617A92597B2D /* Frameworks */ = {
+		00CD0ED2E71DB40E49C4680393E6102D /* FirebaseAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				600C4857039BF82DE90612E86EC1CC56 /* FirebaseDatabase.framework */,
+				B71B47DCABB254F8DFB1BA97B37D6799 /* Frameworks */,
 			);
-			name = Frameworks;
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
-		1C35EEAAB3175852ABF82928D7C0EA92 /* Support Files */ = {
+		03DE5B42CD0D443746379A41AFA7952F /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				50A65510E1E04C7B26424608B1CC6E6C /* Clarifai.modulemap */,
-				BBB7BAC795473C65ACF7FCE44FDFC471 /* Clarifai.xcconfig */,
-				A7643CE8EDA0E1FDA971CB74D6C0AA48 /* Clarifai-dummy.m */,
-				519FF451CD43DE575F0C930D964537D9 /* Clarifai-prefix.pch */,
-				651FF2F90600BA8A9564C33AAC24BAEB /* Clarifai-umbrella.h */,
-				37F81D9B4DFD6ED5FFB9DFEED4FA1949 /* Info.plist */,
+				4CEC481DFA245722B13DBF5E60E8E861 /* AFNetworkReachabilityManager.h */,
+				952FF1D5AB14798D0B25454092122276 /* AFNetworkReachabilityManager.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Clarifai";
+			name = Reachability;
 			sourceTree = "<group>";
 		};
-		1DA822F2702DAFBD26F04D37AE9E0904 /* NSString+URLArguments */ = {
+		126A09D521BEEBC0E6641A3F1DF9AC18 /* FirebaseAuth */ = {
 			isa = PBXGroup;
 			children = (
-				5B299EE1DD024BC1DA0500B2A2FAAD84 /* GTMNSString+URLArguments.h */,
-				6A2D15A3E39827DD6FB655A78B70A6FF /* GTMNSString+URLArguments.m */,
+				8DFD3A9A2B2E9F6426478E6065A76E09 /* Frameworks */,
 			);
-			name = "NSString+URLArguments";
+			name = FirebaseAuth;
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		1F41C2CF9D2F45A54D1BB68FC3A8C640 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				57036DAF3C5A7BA3F1621C2CBC9CAA96 /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
 			sourceTree = "<group>";
 		};
 		27E5264A7FD3E33CB2074B0154C56FC6 /* iOS */ = {
@@ -394,29 +400,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		280B156DAA3E8B349050C3FEBAF8569B /* Pods */ = {
+		3042AE8AA5CE71979F4D6B674F9F047F /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				CA6BEFE175C1E6DB99B7E5D409E3E026 /* AFNetworking */,
-				F032AEE945BB669F29D89970BFAFE537 /* Clarifai */,
-				F040A107F3FCD2B86BF93127269E53A6 /* Firebase */,
-				D897CD7EE757DB03CC136002A1A51E84 /* FirebaseAnalytics */,
-				51BA8BFABA6DE15B56AAD6036DACED18 /* FirebaseAuth */,
-				9A155B5E420D8884C6830F3D2BED73B0 /* FirebaseCore */,
-				C4FD2CC2676A1DC51C7A448C1E662196 /* FirebaseDatabase */,
-				7C0449D5E1C84259970661477E7B47A6 /* FirebaseInstanceID */,
-				61075B6371D777DF1F813A93FCCEE44D /* GoogleToolboxForMac */,
-				655470DBC0122B6EA6718863AA5DDAE4 /* GTMSessionFetcher */,
+				26E2CE4A82CEA637F05ABE69B5B13C90 /* AFAutoPurgingImageCache.h */,
+				F319C16C53329CACD12667E6A0D76DBE /* AFAutoPurgingImageCache.m */,
+				D51215BA64C059BCC7A5C0D3A11DE250 /* AFImageDownloader.h */,
+				EB8378601B6DB7BA53C6565C9576A151 /* AFImageDownloader.m */,
+				8BEB3B8E94800605CAFAE7C6DF2385D4 /* AFNetworkActivityIndicatorManager.h */,
+				C3D630301EC5C1DCDC95360A25886403 /* AFNetworkActivityIndicatorManager.m */,
+				04FB3010875287E55D9901DF9F9DF01C /* UIActivityIndicatorView+AFNetworking.h */,
+				17EBB5E96018BF707FC9E82D09936D82 /* UIActivityIndicatorView+AFNetworking.m */,
+				B8B03735B6270C893A86325AF8444DC1 /* UIButton+AFNetworking.h */,
+				CB1C93ED70B0E6F9E53E07140DE9EDC6 /* UIButton+AFNetworking.m */,
+				F21B5E4604ED5472F67074DC69887B89 /* UIImage+AFNetworking.h */,
+				7F58980883F2B13870BC63C4411D66AF /* UIImageView+AFNetworking.h */,
+				D741C59ED02B9CC21E4F978FA77E9C91 /* UIImageView+AFNetworking.m */,
+				D4F1F4F2EE31A6CB90C920758E763B7C /* UIKit+AFNetworking.h */,
+				0BEA676C87B327DF49C165D0A408DEED /* UIProgressView+AFNetworking.h */,
+				326158A70A7683E6D8E380E0E53FBF2D /* UIProgressView+AFNetworking.m */,
+				A94F5D51E8C2B8BC73AC66F2ED679F9B /* UIRefreshControl+AFNetworking.h */,
+				BE3A5357B94220A9BBDF197BD064340F /* UIRefreshControl+AFNetworking.m */,
+				62DF7DDC4330924C9615E97F6242D53C /* UIWebView+AFNetworking.h */,
+				4EE92DBD64BB1FF1B83550844D075328 /* UIWebView+AFNetworking.m */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		2A52465B8F169C3AFA233CA39643001C /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				4087EDA3BA0AA8BD89B08228E9B02EEB /* Firebase.h */,
-			);
-			name = Core;
+			name = UIKit;
 			sourceTree = "<group>";
 		};
 		35D0137D5E50F14A11875F1B37526F5C /* Targets Support Files */ = {
@@ -427,147 +435,46 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3BD2B8AC423752F7A911E9661F928F7E /* UIKit */ = {
+		3BD094C93E8076DBA6D5F7DAA88A08A7 /* FirebaseStorage */ = {
 			isa = PBXGroup;
 			children = (
-				31B9BE0A263540FF674667750A29040C /* AFAutoPurgingImageCache.h */,
-				21B035EBFADFB77D7F3086C407F49BCA /* AFAutoPurgingImageCache.m */,
-				17CAC0201A463D84FECD8A583C3EC55D /* AFImageDownloader.h */,
-				1DBB1F435EB550D2D67617AB2880527C /* AFImageDownloader.m */,
-				E23B988E037EBBFF0D76681426E3D7D3 /* AFNetworkActivityIndicatorManager.h */,
-				AD244B379D930433EC22E65E8A0D29CB /* AFNetworkActivityIndicatorManager.m */,
-				CA5B35C8133BCD5F4BD2FA4B496F26C2 /* UIActivityIndicatorView+AFNetworking.h */,
-				2BBBD682207B7FF4BA844599900D4329 /* UIActivityIndicatorView+AFNetworking.m */,
-				33CBB26E824393A61B0FA27454333E77 /* UIButton+AFNetworking.h */,
-				D68E325377EE059024DABCDCDF72C8E7 /* UIButton+AFNetworking.m */,
-				84CBA3858EF9AFC7B730DAA63D64E13D /* UIImage+AFNetworking.h */,
-				500A66A435A5A1EA534800522B4116A7 /* UIImageView+AFNetworking.h */,
-				73123B7AC64618C7195614E252967303 /* UIImageView+AFNetworking.m */,
-				05678C61C459EA761BA0E92640E762DD /* UIKit+AFNetworking.h */,
-				6F01CC3C49A70D9A35FD664EF6EC726A /* UIProgressView+AFNetworking.h */,
-				CA6A82AD7A85D63073FF5BEC60641E2B /* UIProgressView+AFNetworking.m */,
-				DF302BCE5E2FB89BB93AF6A54D4A4A05 /* UIRefreshControl+AFNetworking.h */,
-				D145AC021D51B48EE5354AC5406A1C82 /* UIRefreshControl+AFNetworking.m */,
-				E30ADC8942A8ED026D98C3864C01DDEA /* UIWebView+AFNetworking.h */,
-				2DB76834ADB4807724B0868592E1537B /* UIWebView+AFNetworking.m */,
+				DDDBEC39E2647B2AEBBDC5AB18973692 /* Frameworks */,
 			);
-			name = UIKit;
+			name = FirebaseStorage;
+			path = FirebaseStorage;
 			sourceTree = "<group>";
 		};
-		3E2BF5D6E92FE87736BF303096D3529C /* Support Files */ = {
+		462D86C2EF72A3C03DE141DE83DA8953 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				1822CBE1C1CBFB28F52319309A6D597D /* GoogleToolboxForMac.modulemap */,
-				420D052454D5599CBAAF88E5FFCFF718 /* GoogleToolboxForMac.xcconfig */,
-				0E5A6BD73DA374B7678D4D13E78AF560 /* GoogleToolboxForMac-dummy.m */,
-				C494DA9F02160BDA2E947F81B0A63BFB /* GoogleToolboxForMac-prefix.pch */,
-				12B9670B3CA36904F22CB792877BABBE /* GoogleToolboxForMac-umbrella.h */,
-				DA639395998B3C4022AC907F1874FFDC /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/GoogleToolboxForMac";
-			sourceTree = "<group>";
-		};
-		44D05AA17DBDDC2892ED9523A2A90A0C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				354DB9EE47BB520E157A51A2617A931D /* FirebaseAuth.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		51BA8BFABA6DE15B56AAD6036DACED18 /* FirebaseAuth */ = {
-			isa = PBXGroup;
-			children = (
-				44D05AA17DBDDC2892ED9523A2A90A0C /* Frameworks */,
-			);
-			name = FirebaseAuth;
-			path = FirebaseAuth;
-			sourceTree = "<group>";
-		};
-		5AEF59DF40DBE6647EC637E6CF56D0EA /* NSURLSession */ = {
-			isa = PBXGroup;
-			children = (
-				107A8339EF75CD3C636C7E125B8DBCF4 /* AFHTTPSessionManager.h */,
-				4A53A74FC85A3142E285105D8491B977 /* AFHTTPSessionManager.m */,
-				4DB5496FDCA9AF077752D29F8F8F26D3 /* AFURLSessionManager.h */,
-				20D81B6DA08D9B657377F2F175D36B5F /* AFURLSessionManager.m */,
-			);
-			name = NSURLSession;
-			sourceTree = "<group>";
-		};
-		61075B6371D777DF1F813A93FCCEE44D /* GoogleToolboxForMac */ = {
-			isa = PBXGroup;
-			children = (
-				C1B8A0721549F835A5197F76F5C33998 /* DebugUtils */,
-				86B9D7CA84ECD84EADE02332EF9EEDE3 /* Defines */,
-				A35A0248C45E602C15123666DA8D1792 /* NSData+zlib */,
-				68F02967D448E09AE3B0726D7D7821E7 /* NSDictionary+URLArguments */,
-				1DA822F2702DAFBD26F04D37AE9E0904 /* NSString+URLArguments */,
-				3E2BF5D6E92FE87736BF303096D3529C /* Support Files */,
-			);
-			name = GoogleToolboxForMac;
-			path = GoogleToolboxForMac;
-			sourceTree = "<group>";
-		};
-		63CB7D0418E450759547C1E5D570CCAC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8A33FA98D9A6CFCA10385492D614570C /* FirebaseAnalytics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		655470DBC0122B6EA6718863AA5DDAE4 /* GTMSessionFetcher */ = {
-			isa = PBXGroup;
-			children = (
-				68660D061965E25CFA42F75711161C4F /* Core */,
-				BAE4034E801D85F00FC5F1F9CB929D74 /* Support Files */,
-			);
-			name = GTMSessionFetcher;
-			path = GTMSessionFetcher;
-			sourceTree = "<group>";
-		};
-		68660D061965E25CFA42F75711161C4F /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				7F7ADEE57376C8D3479BB66152199D8F /* GTMSessionFetcher.h */,
-				4280E50EAD6FF66E4A09EE3A3849A2B4 /* GTMSessionFetcher.m */,
-				F0A380B27C2FEE720C9F1FB6835941CE /* GTMSessionFetcherLogging.h */,
-				70DF26EB9982E27D6056260B555955D8 /* GTMSessionFetcherLogging.m */,
-				B2F6EC78298484B2F4A91FC74F994B14 /* GTMSessionFetcherService.h */,
-				A9DCF20F5778C8C3F41434CBD33555D9 /* GTMSessionFetcherService.m */,
-				BB9B5D6F0B5C3957F497F1EE2684A8D2 /* GTMSessionUploadFetcher.h */,
-				A2D9602F3AEDC91485A09A3773E58896 /* GTMSessionUploadFetcher.m */,
+				AF68EA1FFD3C02DFDA4A0BB1F244B6F4 /* Firebase.h */,
 			);
 			name = Core;
 			sourceTree = "<group>";
 		};
-		68F02967D448E09AE3B0726D7D7821E7 /* NSDictionary+URLArguments */ = {
+		57036DAF3C5A7BA3F1621C2CBC9CAA96 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2E3B89930E5AC1860AA3335D3B11A912 /* GTMNSDictionary+URLArguments.h */,
-				1E2CC2C5E010271BB001679DA039FA9E /* GTMNSDictionary+URLArguments.m */,
+				33526BEE81BF0121361C0603E2A138E1 /* FirebaseCore.framework */,
+				19C862596669A10EDB1901B85A9E7371 /* FirebaseCoreDiagnostics.framework */,
+				14A95BD4EEA1F08F8163A55C78393FC7 /* FirebaseNanoPB.framework */,
 			);
-			name = "NSDictionary+URLArguments";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6CA73FF5FC42A25D8C727814D3A22B7A /* Security */ = {
+		67760CD209240B52EE5E154FE586A8B5 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				1746200901A6DD9CDD6E601681BA119F /* AFSecurityPolicy.h */,
-				88FD0F122BE2916AEF0C670B72E46A2D /* AFSecurityPolicy.m */,
+				0A162F2AEFB01E36A403E705776A3BA9 /* AFNetworking.h */,
+				A3B5F440AF5D334B5F306F765EEE80FB /* NSURLSession */,
+				03DE5B42CD0D443746379A41AFA7952F /* Reachability */,
+				957AC8345DD1CD1C9D9D0B7688EF9D25 /* Security */,
+				D8BA9CAC0F540BDA7194D0965F73E9EF /* Serialization */,
+				C6542394FB187409D663C25829A56FA5 /* Support Files */,
+				3042AE8AA5CE71979F4D6B674F9F047F /* UIKit */,
 			);
-			name = Security;
-			sourceTree = "<group>";
-		};
-		7C0449D5E1C84259970661477E7B47A6 /* FirebaseInstanceID */ = {
-			isa = PBXGroup;
-			children = (
-				FE59D03F0E6F388AF2447611777D6D98 /* Frameworks */,
-			);
-			name = FirebaseInstanceID;
-			path = FirebaseInstanceID;
+			name = AFNetworking;
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -575,128 +482,297 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				EFC8D1216166DE80CF4A6175E6193664 /* Frameworks */,
-				280B156DAA3E8B349050C3FEBAF8569B /* Pods */,
+				D572A42E023CE9C20C169A683D78B9F2 /* Pods */,
 				F0718CB8F3F0594440EFA67FDA49B507 /* Products */,
 				35D0137D5E50F14A11875F1B37526F5C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		86B9D7CA84ECD84EADE02332EF9EEDE3 /* Defines */ = {
+		80FE39B4ACAFB4D9B85B9F0CC8815520 /* NSDictionary+URLArguments */ = {
 			isa = PBXGroup;
 			children = (
-				09E912E4D928904F598ABDF547E75243 /* GTMDefines.h */,
+				AC6CA4691225D56F386A98A2C8E032A1 /* GTMNSDictionary+URLArguments.h */,
+				91452A1ECDD393DED14DDC1621BC12D5 /* GTMNSDictionary+URLArguments.m */,
+			);
+			name = "NSDictionary+URLArguments";
+			sourceTree = "<group>";
+		};
+		842FD469F5CAD725C7E39F4E5E451164 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				462D86C2EF72A3C03DE141DE83DA8953 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		866823F43452B4B33B845F83DFD332A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F997694D34D2C2066A5330728987714 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A11B80781485E91E7EBDF15D1B8C63F /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				F020ADEE18487BFD21D5C706FD3D8E72 /* GTMDefines.h */,
 			);
 			name = Defines;
 			sourceTree = "<group>";
 		};
-		946D74986923AFFF19D019765AF65A3D /* Support Files */ = {
+		8DFD3A9A2B2E9F6426478E6065A76E09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				26376DA181ED57842271624347284F15 /* AFNetworking.modulemap */,
-				1BE7EE7702091CCF58009C826C717798 /* AFNetworking.xcconfig */,
-				71DCE59E4A3054BF6080FC03835943DC /* AFNetworking-dummy.m */,
-				9A34D864B1C013EFBB3311285D1D6EA0 /* AFNetworking-prefix.pch */,
-				0141DA65096CE99C60E399E600E3D50A /* AFNetworking-umbrella.h */,
-				AD129CA23A211E6F0BB0286A845CE746 /* Info.plist */,
+				4BFD1B4561BC32A4E23D1586866E17C9 /* FirebaseAuth.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/AFNetworking";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9A155B5E420D8884C6830F3D2BED73B0 /* FirebaseCore */ = {
+		9395F10479E6750925779DA4B966E9EB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C3AD1D31C4A21286745AA13FBFD0EBFF /* Frameworks */,
-			);
-			name = FirebaseCore;
-			path = FirebaseCore;
-			sourceTree = "<group>";
-		};
-		A35A0248C45E602C15123666DA8D1792 /* NSData+zlib */ = {
-			isa = PBXGroup;
-			children = (
-				071F1775F077C122B35AB54C2B50BFC6 /* GTMNSData+zlib.h */,
-				A67C8A20C25098153B928570D8C2BE3B /* GTMNSData+zlib.m */,
-			);
-			name = "NSData+zlib";
-			sourceTree = "<group>";
-		};
-		AB19D4D4ED861515EB8D8C3C0A14CC09 /* Serialization */ = {
-			isa = PBXGroup;
-			children = (
-				32A1D1B1C9B2698939438EFE72F8EF87 /* AFURLRequestSerialization.h */,
-				6F45AD2ED81A79191BBA90AD59862FCF /* AFURLRequestSerialization.m */,
-				6012BBED00B5AEF88A967EBCCF3684C5 /* AFURLResponseSerialization.h */,
-				FA85653804686181BCD3CD0E4548DD00 /* AFURLResponseSerialization.m */,
-			);
-			name = Serialization;
-			sourceTree = "<group>";
-		};
-		BAE4034E801D85F00FC5F1F9CB929D74 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				65D2A392B953D940ADA54C1B401C952C /* GTMSessionFetcher.modulemap */,
-				03E4B4D7890142EF50BC3BFD6605C170 /* GTMSessionFetcher.xcconfig */,
-				C3A7BD3DF61C4D26579638D18F9FF2E4 /* GTMSessionFetcher-dummy.m */,
-				90250EFCC09B92E82F62DC9C3F8E6050 /* GTMSessionFetcher-prefix.pch */,
-				E429068C5527B72E70B032181040011E /* GTMSessionFetcher-umbrella.h */,
-				7038C11BE3A7B40C7934B7570570EB1A /* Info.plist */,
+				0A1CE3FBEF39138BC2A5226BB9D4E919 /* GTMSessionFetcher.modulemap */,
+				FF84894412B9F36F192C40656043E68C /* GTMSessionFetcher.xcconfig */,
+				EA312C6EE4515573F2ED86787D11E53D /* GTMSessionFetcher-dummy.m */,
+				180F689B8A4D50CFC895F741C061B4F1 /* GTMSessionFetcher-prefix.pch */,
+				F740FBB72A4EB4B47C6D7D2BFC843382 /* GTMSessionFetcher-umbrella.h */,
+				B487DE26E4E78BCF70CB6B622BF2F4FF /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/GTMSessionFetcher";
 			sourceTree = "<group>";
 		};
-		C1B8A0721549F835A5197F76F5C33998 /* DebugUtils */ = {
+		957AC8345DD1CD1C9D9D0B7688EF9D25 /* Security */ = {
 			isa = PBXGroup;
 			children = (
-				B4946390A9A1F4B6367276A2B4B25EDB /* GTMDebugSelectorValidation.h */,
-				AB0C555C9B7398B9410515151E7C3ECE /* GTMDebugThreadValidation.h */,
-				0E06C786DDE12EB113EC8DBFDA5557A0 /* GTMMethodCheck.h */,
+				434F7D9D1AD71BB4E968258834F1D729 /* AFSecurityPolicy.h */,
+				E5064E608BD729131AC5A929EC2B1A25 /* AFSecurityPolicy.m */,
 			);
-			name = DebugUtils;
+			name = Security;
 			sourceTree = "<group>";
 		};
-		C3AD1D31C4A21286745AA13FBFD0EBFF /* Frameworks */ = {
+		99F917E0D112F1B5AB78D068DF82C5BD /* FirebaseDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				A13F5C8C5C9035843EE23D330ADC559B /* FirebaseCore.framework */,
-				BC8EF5DA27A25161948D2532B327C08B /* FirebaseCoreDiagnostics.framework */,
-				5D6F05A47F832C2778B0CACB83EB71B6 /* FirebaseNanoPB.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C4FD2CC2676A1DC51C7A448C1E662196 /* FirebaseDatabase */ = {
-			isa = PBXGroup;
-			children = (
-				1B729ECC91CFF180E583617A92597B2D /* Frameworks */,
+				D902E64ADFE235D95900665A9ED2148B /* Frameworks */,
 			);
 			name = FirebaseDatabase;
 			path = FirebaseDatabase;
 			sourceTree = "<group>";
 		};
-		CA6BEFE175C1E6DB99B7E5D409E3E026 /* AFNetworking */ = {
+		A14F0FFDF2A4D4E08FBD31B3FAA9CD58 /* NSData+zlib */ = {
 			isa = PBXGroup;
 			children = (
-				14798F29A3F94D41C26734FCFB9B5CE6 /* AFNetworking.h */,
-				5AEF59DF40DBE6647EC637E6CF56D0EA /* NSURLSession */,
-				FA9F2FF0515066F293C2593C9971DF02 /* Reachability */,
-				6CA73FF5FC42A25D8C727814D3A22B7A /* Security */,
-				AB19D4D4ED861515EB8D8C3C0A14CC09 /* Serialization */,
-				946D74986923AFFF19D019765AF65A3D /* Support Files */,
-				3BD2B8AC423752F7A911E9661F928F7E /* UIKit */,
+				A1B64AABDC9B12502D0353BADDAA4232 /* GTMNSData+zlib.h */,
+				BF41AD31EF86F6895C4C56E394833C1E /* GTMNSData+zlib.m */,
 			);
-			name = AFNetworking;
-			path = AFNetworking;
+			name = "NSData+zlib";
 			sourceTree = "<group>";
 		};
-		D897CD7EE757DB03CC136002A1A51E84 /* FirebaseAnalytics */ = {
+		A3B5F440AF5D334B5F306F765EEE80FB /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
-				63CB7D0418E450759547C1E5D570CCAC /* Frameworks */,
+				EC24673BFDE3D208CBC38968A3281531 /* AFHTTPSessionManager.h */,
+				DD9222E94300A0E209B244E23D6E7351 /* AFHTTPSessionManager.m */,
+				8C37598DAF26A4EBD3652CCC06B5FA5E /* AFURLSessionManager.h */,
+				31E34C21E8DA97F4DC2575AD8AFC4726 /* AFURLSessionManager.m */,
 			);
-			name = FirebaseAnalytics;
-			path = FirebaseAnalytics;
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		B5F20795B6C803BB66A7F0B0D00BC9A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E655DD6651326EE1B8FBF57A8E2D6077 /* Clarifai.modulemap */,
+				4F0DFC92CCE4F9B8E9BE9DC82CCBE68C /* Clarifai.xcconfig */,
+				EC353DBFD684B061616F97CC54373020 /* Clarifai-dummy.m */,
+				CDE925F4CAFA1ACAE96C4847D3A4C1EB /* Clarifai-prefix.pch */,
+				C5530C512CCEC2619EC2F6CD6F71F801 /* Clarifai-umbrella.h */,
+				919874D683AD8173CC97824194467DCD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Clarifai";
+			sourceTree = "<group>";
+		};
+		B71B47DCABB254F8DFB1BA97B37D6799 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				728835C682B5F12EDBC547D11C7EE500 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBF846B9C48027796A3EB9CADF4078BC /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				866823F43452B4B33B845F83DFD332A4 /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		C4F1BE4C7B1FD32894887D5CB19806E0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA25EBAE9C7BC3ED34AACF8F14E104DE /* GoogleToolboxForMac.modulemap */,
+				9E8C34550901EEF66DF82FB8CCC31919 /* GoogleToolboxForMac.xcconfig */,
+				A25E4ECC952B70771424ABDF72EBB2FD /* GoogleToolboxForMac-dummy.m */,
+				1A6CAF801C2D476E85547F7BD219E404 /* GoogleToolboxForMac-prefix.pch */,
+				BD94E0ECCB79315BA3FF792A1FD4CEBB /* GoogleToolboxForMac-umbrella.h */,
+				E72D45284065351A6036CCFE6C4C511B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		C5E6BA906E7424060260DB8718A1039B /* DebugUtils */ = {
+			isa = PBXGroup;
+			children = (
+				E458DCFF9AD6F773D59F042F7EC805A0 /* GTMDebugSelectorValidation.h */,
+				24A0FB91461F66CD2D21172BF1F6FFD9 /* GTMDebugThreadValidation.h */,
+				0DB9F56DEFA7A8CF44B49DD9D9F76DCA /* GTMMethodCheck.h */,
+			);
+			name = DebugUtils;
+			sourceTree = "<group>";
+		};
+		C6542394FB187409D663C25829A56FA5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6C2243E7A519077F987C8D480D52E5F /* AFNetworking.modulemap */,
+				BD4029BA3C66AE3A8544ED4FCB62DCA8 /* AFNetworking.xcconfig */,
+				D6F325405894DFCA77427544D926D9C0 /* AFNetworking-dummy.m */,
+				011375F116ECA9F2E53936BEEC740E0F /* AFNetworking-prefix.pch */,
+				F3FDBBF6FA4E0BEDE85E595916BAA2BF /* AFNetworking-umbrella.h */,
+				E990FCB9624B0DBD8567C622CE26F1BC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		C86F660BB12804027C8CA169B47D6D16 /* GTMSessionFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				FAD04ACB7144A8C3E4687B09046EB61F /* Core */,
+				9395F10479E6750925779DA4B966E9EB /* Support Files */,
+			);
+			name = GTMSessionFetcher;
+			path = GTMSessionFetcher;
+			sourceTree = "<group>";
+		};
+		CBA9B663A1746AD7B29A5CD28465336C /* NSString+URLArguments */ = {
+			isa = PBXGroup;
+			children = (
+				62812EA665C1EE8B0B3A732F49D4ADA5 /* GTMNSString+URLArguments.h */,
+				790C30818C31360591F97DC52AE5D116 /* GTMNSString+URLArguments.m */,
+			);
+			name = "NSString+URLArguments";
+			sourceTree = "<group>";
+		};
+		CF29FDCD906AFD163629C76E9A804A66 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				C5E6BA906E7424060260DB8718A1039B /* DebugUtils */,
+				8A11B80781485E91E7EBDF15D1B8C63F /* Defines */,
+				A14F0FFDF2A4D4E08FBD31B3FAA9CD58 /* NSData+zlib */,
+				80FE39B4ACAFB4D9B85B9F0CC8815520 /* NSDictionary+URLArguments */,
+				CBA9B663A1746AD7B29A5CD28465336C /* NSString+URLArguments */,
+				C4F1BE4C7B1FD32894887D5CB19806E0 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		D572A42E023CE9C20C169A683D78B9F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67760CD209240B52EE5E154FE586A8B5 /* AFNetworking */,
+				D9812E546F247CC46364781811FA1575 /* Clarifai */,
+				842FD469F5CAD725C7E39F4E5E451164 /* Firebase */,
+				00CD0ED2E71DB40E49C4680393E6102D /* FirebaseAnalytics */,
+				126A09D521BEEBC0E6641A3F1DF9AC18 /* FirebaseAuth */,
+				1F41C2CF9D2F45A54D1BB68FC3A8C640 /* FirebaseCore */,
+				99F917E0D112F1B5AB78D068DF82C5BD /* FirebaseDatabase */,
+				BBF846B9C48027796A3EB9CADF4078BC /* FirebaseInstanceID */,
+				3BD094C93E8076DBA6D5F7DAA88A08A7 /* FirebaseStorage */,
+				CF29FDCD906AFD163629C76E9A804A66 /* GoogleToolboxForMac */,
+				C86F660BB12804027C8CA169B47D6D16 /* GTMSessionFetcher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8BA9CAC0F540BDA7194D0965F73E9EF /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				8172C743021FA34C4AA54F4DD457F4EA /* AFURLRequestSerialization.h */,
+				FD027FCD9A4290ECDB48078E1F96A3E5 /* AFURLRequestSerialization.m */,
+				8463C9DBAC92DE4DFB875B0D0FF35777 /* AFURLResponseSerialization.h */,
+				5C18CE54CE7FC038FFA2D8229EBA676B /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		D902E64ADFE235D95900665A9ED2148B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F96AEF0C065B9C81F119FB31A911B1F /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9812E546F247CC46364781811FA1575 /* Clarifai */ = {
+			isa = PBXGroup;
+			children = (
+				0A5CAD99A6A511E85A1BCFD59848C49E /* ClarifaiApp.h */,
+				CD30924E7563998577CBF42D51B25A3B /* ClarifaiApp.m */,
+				A0290014B9C9AF7039482F1BBD92CF76 /* ClarifaiConcept.h */,
+				B789E9D17A0F235B1632966BB22859F5 /* ClarifaiConcept.m */,
+				D9C64BA918AE2D4D1139940A969E93A3 /* ClarifaiConstants.h */,
+				6B36FD218B9978FF1D3699111DD83A33 /* ClarifaiCrop.h */,
+				FF3B2901EF25D1ACA5BD279F61231742 /* ClarifaiCrop.m */,
+				548E6905012D0819007EFE170AA48F9C /* ClarifaiGeo.h */,
+				BFA508C7F1EC3D8A663BC183333ACE54 /* ClarifaiGeo.m */,
+				F55C57628290F80F6532F4A6F4C55DF4 /* ClarifaiImage.h */,
+				FD61CD9F70F36EFD24A01045085E225C /* ClarifaiImage.m */,
+				6E4D03D83347FEE4E778A3D35AE1A3E4 /* ClarifaiInput.h */,
+				13E440FFBF2681C9062C01F0BB9077FC /* ClarifaiInput.m */,
+				008F8CD9AFAD2384DE5C468DE3CBA8C6 /* ClarifaiLocation.h */,
+				9DE3B5470D3FEBF2E1EDACC8CEA644FB /* ClarifaiLocation.m */,
+				BD8678874781E6C900E41921186937C7 /* ClarifaiModel.h */,
+				07B68BA8A3F5219777A086D1E91F44B0 /* ClarifaiModel.m */,
+				292C6D0D56FB6F7C1975A687EC153A39 /* ClarifaiModelVersion.h */,
+				D043E17459984A680E2F1294EE6204E2 /* ClarifaiModelVersion.m */,
+				C4CB38D9882AB43548A5F726816BE601 /* ClarifaiOutput.h */,
+				6DD8ADCDCDC69F23E841323F2AEACDED /* ClarifaiOutput.m */,
+				EE39C88E4351CABA4E404196F739F12C /* ClarifaiOutputFace.h */,
+				594810EE168D2701B2E9F8A15BEE637B /* ClarifaiOutputFace.m */,
+				A89D168BD7993B25E74581D6244A2D1F /* ClarifaiOutputFocus.h */,
+				622AEE9805977734C9BCB1290DA2E2A4 /* ClarifaiOutputFocus.m */,
+				185A899ED58B4DE0B1C7AE6527BFECA8 /* ClarifaiOutputRegion.h */,
+				5CD0D53CBC5ED07439E2983B3E6AE25C /* ClarifaiOutputRegion.m */,
+				D1811020227211927F51C44A3EDC5860 /* ClarifaiSearchResult.h */,
+				A187290E0007AAFF542CAFC26F81C45E /* ClarifaiSearchResult.m */,
+				73BFAC0CC8D27B52F890AD475ED4E9E3 /* ClarifaiSearchTerm.h */,
+				3C044C4BF4C5167556E8BFA59E9A530C /* ClarifaiSearchTerm.m */,
+				3EA09256162E5DB030542A74A94585F3 /* NSArray+Clarifai.h */,
+				F78B1073AB1C7C4D7D33054063906300 /* NSArray+Clarifai.m */,
+				4BDEA99EFD855979762BDEA11D84DC92 /* NSDictionary+Clarifai.h */,
+				767F229199339C42D60F1BCDC5924356 /* NSDictionary+Clarifai.m */,
+				45A2309D489856AB0E2C1DDA8FFA74EF /* ResponseSerializer.h */,
+				485768DC51939C6BD301B8A418BD665B /* ResponseSerializer.m */,
+				B5F20795B6C803BB66A7F0B0D00BC9A3 /* Support Files */,
+			);
+			name = Clarifai;
+			path = Clarifai;
+			sourceTree = "<group>";
+		};
+		DDDBEC39E2647B2AEBBDC5AB18973692 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F3DB256D0EA100BAE55B52F7819E0C6 /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		EFC8D1216166DE80CF4A6175E6193664 /* Frameworks */ = {
@@ -706,61 +782,6 @@
 				27E5264A7FD3E33CB2074B0154C56FC6 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F032AEE945BB669F29D89970BFAFE537 /* Clarifai */ = {
-			isa = PBXGroup;
-			children = (
-				48FF8C102D81BE1DE496D29A0713AEBD /* ClarifaiApp.h */,
-				8A4D01087AC8F1E7D9A0638C176174EE /* ClarifaiApp.m */,
-				BCD7D5727642B6BB1EF9F71528272E29 /* ClarifaiConcept.h */,
-				C9C6580BC58FDC1076043E8CDB8A0834 /* ClarifaiConcept.m */,
-				8263C49B81230691EAEF6885FA228B56 /* ClarifaiConstants.h */,
-				89C03D7F313CDD5F86960EA0F32E9E09 /* ClarifaiCrop.h */,
-				FE683525196BBFDBCB3FC2A7B5F7C6B5 /* ClarifaiCrop.m */,
-				3C9B658B41F8EE7DA16B8697A1221817 /* ClarifaiGeo.h */,
-				7124561E2533110CDF8EF8E4D3DDF788 /* ClarifaiGeo.m */,
-				2B8813A8453DDE255D6B77D49D6120AC /* ClarifaiImage.h */,
-				D706A492B224BAC2797E736615506035 /* ClarifaiImage.m */,
-				49FB9E571EC7D21A90AF7507B7DC44C6 /* ClarifaiInput.h */,
-				A6849F0E5F1C9008DF4934D138DA0CEE /* ClarifaiInput.m */,
-				6500258466AB44980771C21FF1FE5C14 /* ClarifaiLocation.h */,
-				49159415C84F776E61A354E3974DB84A /* ClarifaiLocation.m */,
-				1ECD8AFDD6A472D222CBD5D6A7C38D88 /* ClarifaiModel.h */,
-				0C801C50A0ECF2291CEF2530F86F98F8 /* ClarifaiModel.m */,
-				912092017D5BF4FD00EE9B53ABB9079D /* ClarifaiModelVersion.h */,
-				052C1801203693BB6949E4381DE3873D /* ClarifaiModelVersion.m */,
-				98CF166E1F3036BD8F0978780E844366 /* ClarifaiOutput.h */,
-				A5CFB0CE6D2BE2C259D82D1FD3A3E41B /* ClarifaiOutput.m */,
-				9B10B604283ECD89134E23AA3D2FB0E9 /* ClarifaiOutputFace.h */,
-				E28A16625A229DA5FE92ACC9BC4D41DA /* ClarifaiOutputFace.m */,
-				4354002EFB7328E89C6A222AB477B117 /* ClarifaiOutputFocus.h */,
-				803EC5AC8226178B12AFE9C1B0AE0046 /* ClarifaiOutputFocus.m */,
-				2E8E58C245AC9D68CF927F73588AB52B /* ClarifaiOutputRegion.h */,
-				4658BA3A8D4C43DB8AE80AD67621DB1D /* ClarifaiOutputRegion.m */,
-				A0C70DFD796B4F5130B90107AF05FCF7 /* ClarifaiSearchResult.h */,
-				764345F83B57588717500B36237D11A1 /* ClarifaiSearchResult.m */,
-				B81BECFD19BA50921E67C1F970103132 /* ClarifaiSearchTerm.h */,
-				4FE7CF077F9D861D9BD61AF0A8F0603A /* ClarifaiSearchTerm.m */,
-				87C423BD22086304AF2F9E4FD81FEE65 /* NSArray+Clarifai.h */,
-				5F9647B787B0565A7869735E40686A87 /* NSArray+Clarifai.m */,
-				43EEBD6AEB8E30C67C5AEA1A4B0A4C29 /* NSDictionary+Clarifai.h */,
-				A502511A5EF002D2F03D5CE132A9B906 /* NSDictionary+Clarifai.m */,
-				356FA098466B1939C0E263B0A1D5ACD5 /* ResponseSerializer.h */,
-				911822CE9C6715681C6B5BBE1665C0A8 /* ResponseSerializer.m */,
-				1C35EEAAB3175852ABF82928D7C0EA92 /* Support Files */,
-			);
-			name = Clarifai;
-			path = Clarifai;
-			sourceTree = "<group>";
-		};
-		F040A107F3FCD2B86BF93127269E53A6 /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				2A52465B8F169C3AFA233CA39643001C /* Core */,
-			);
-			name = Firebase;
-			path = Firebase;
 			sourceTree = "<group>";
 		};
 		F0718CB8F3F0594440EFA67FDA49B507 /* Products */ = {
@@ -793,21 +814,19 @@
 			path = "Target Support Files/Pods-ImageRecognitionApp";
 			sourceTree = "<group>";
 		};
-		FA9F2FF0515066F293C2593C9971DF02 /* Reachability */ = {
+		FAD04ACB7144A8C3E4687B09046EB61F /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				7FA556209E142784AF72D30A25125498 /* AFNetworkReachabilityManager.h */,
-				493B6D956D10C6335529A88BEEA89EBB /* AFNetworkReachabilityManager.m */,
+				C18F4E8DE41FBCF1485D378159DC7A7F /* GTMSessionFetcher.h */,
+				620EA8D2C723092BB20D81B059CC6FF7 /* GTMSessionFetcher.m */,
+				33AB82C0248774DAE9407C42114AF4F8 /* GTMSessionFetcherLogging.h */,
+				AE5D509ED50405CC7C4E35FB5E712D5E /* GTMSessionFetcherLogging.m */,
+				906D0959B936DD2B6106968F95265CEF /* GTMSessionFetcherService.h */,
+				6012004BEA68F8666637C172D538D0BC /* GTMSessionFetcherService.m */,
+				E7FB0460611557AD66CBEFC6CBC59E5B /* GTMSessionUploadFetcher.h */,
+				C1C135B05C496DD067AE808DDB6CFA49 /* GTMSessionUploadFetcher.m */,
 			);
-			name = Reachability;
-			sourceTree = "<group>";
-		};
-		FE59D03F0E6F388AF2447611777D6D98 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D2AAAC38331E0089A28F2BF0E4493E87 /* FirebaseInstanceID.framework */,
-			);
-			name = Frameworks;
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1143,7 +1162,7 @@
 /* Begin XCBuildConfiguration section */
 		05E04CFBA4D993878803362CB34062EC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BE7EE7702091CCF58009C826C717798 /* AFNetworking.xcconfig */;
+			baseConfigurationReference = BD4029BA3C66AE3A8544ED4FCB62DCA8 /* AFNetworking.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1254,7 +1273,7 @@
 		};
 		26733C86AEE5E33D5FF693343368D0D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB7BAC795473C65ACF7FCE44FDFC471 /* Clarifai.xcconfig */;
+			baseConfigurationReference = 4F0DFC92CCE4F9B8E9BE9DC82CCBE68C /* Clarifai.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1286,7 +1305,7 @@
 		};
 		3AF861AEADA89A377F12178D493BED95 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 420D052454D5599CBAAF88E5FFCFF718 /* GoogleToolboxForMac.xcconfig */;
+			baseConfigurationReference = 9E8C34550901EEF66DF82FB8CCC31919 /* GoogleToolboxForMac.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1358,7 +1377,7 @@
 		};
 		881B19BB9961D509DACE94450066151E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 420D052454D5599CBAAF88E5FFCFF718 /* GoogleToolboxForMac.xcconfig */;
+			baseConfigurationReference = 9E8C34550901EEF66DF82FB8CCC31919 /* GoogleToolboxForMac.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1390,7 +1409,7 @@
 		};
 		B9C7324D0ADEABED7BC7B2D9C608C5E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03E4B4D7890142EF50BC3BFD6605C170 /* GTMSessionFetcher.xcconfig */;
+			baseConfigurationReference = FF84894412B9F36F192C40656043E68C /* GTMSessionFetcher.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1457,7 +1476,7 @@
 		};
 		DE7DBDDA8C84D96AFC6D96329967BBDF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB7BAC795473C65ACF7FCE44FDFC471 /* Clarifai.xcconfig */;
+			baseConfigurationReference = 4F0DFC92CCE4F9B8E9BE9DC82CCBE68C /* Clarifai.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1489,7 +1508,7 @@
 		};
 		E0695E55897F09C6C94B443561B22DA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BE7EE7702091CCF58009C826C717798 /* AFNetworking.xcconfig */;
+			baseConfigurationReference = BD4029BA3C66AE3A8544ED4FCB62DCA8 /* AFNetworking.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1521,7 +1540,7 @@
 		};
 		ED969C86CBBA712335D5E741625E75B6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03E4B4D7890142EF50BC3BFD6605C170 /* GTMSessionFetcher.xcconfig */;
+			baseConfigurationReference = FF84894412B9F36F192C40656043E68C /* GTMSessionFetcher.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

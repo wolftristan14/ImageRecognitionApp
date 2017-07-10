@@ -33,8 +33,8 @@ class LogInViewController: UIViewController {
                 
                 if error == nil {
                     print("Logged in")
-                    
-                    //self.navigationController?.popViewController(animated: true)
+                    self.navigationController?.popViewController(animated: true)
+                    self.dismiss(animated: true, completion: nil)
                     let viewController = self.storyboard?.instantiateViewController(withIdentifier: "viewController")
                     self.present(viewController!, animated: true, completion: nil)
                     
