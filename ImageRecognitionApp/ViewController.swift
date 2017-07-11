@@ -12,7 +12,6 @@ import Firebase
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     let picker = UIImagePickerController()
-    let firebaseManager = FirebaseManager()
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var yesButton: ButtonStyleManager!
@@ -71,7 +70,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         yesButton.isEnabled = false
         noButton.isEnabled = false
         SwiftSpinner.show("Writing to database...")
-        firebaseManager.uploadImageToStorage(image: imageView.image!)
+        uploadImageToStorage()
     }
     
     @IBAction func incorrectMatch(_ sender: Any) {
@@ -79,10 +78,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         yesButton.isEnabled = false
         noButton.isEnabled = false
         SwiftSpinner.show("Writing to database...")
-        firebaseManager.uploadImageToStorage(image: imageView.image!)
+        uploadImageToStorage()
     }
     
-    func uploadImageToStorage(image:UIImage) {
+    func uploadImageToStorage() {
         
         let imageName = NSUUID().uuidString
         let storageRef = Storage.storage().reference().child(imageName)
