@@ -42,7 +42,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     override func viewDidAppear(_ animated: Bool) {
         if counter == 0 {
         picker.allowsEditing = false
-        picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
+        picker.sourceType = UIImagePickerControllerSourceType.camera
         present(picker, animated: true, completion: nil)
         counter += 1
         }
@@ -113,7 +113,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
     @IBAction func goBackToCamera(_ sender: UIBarButtonItem) {
         picker.allowsEditing = false
-        picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
+        picker.sourceType = UIImagePickerControllerSourceType.camera
         picker.delegate = self
         present(picker, animated: true, completion: nil)
     }
