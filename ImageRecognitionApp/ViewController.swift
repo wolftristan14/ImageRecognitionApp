@@ -15,8 +15,12 @@ import FirebaseStorage
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     let picker = UIImagePickerController()
+    let firebaseManager = FirebaseManager()
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var yesButton: ButtonStyleManager!
+    @IBOutlet weak var noButton: ButtonStyleManager!
+   
     var counter = 0
     var correctMatch:Bool!
     
@@ -31,6 +35,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         self.view.isHidden = true
         textView.isEditable = false
         textView.isSelectable = false
+        yesButton.isEnabled = false
+        noButton.isEnabled = false
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -60,23 +66,26 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             apiManager.recognizeImage(image: image)
             SwiftSpinner.show("Loading Matches...")
             imageView.image = image
-            //button.isEnabled = false
         }
     }
     
     @IBAction func correctMatch(_ sender: Any) {
         correctMatch = true
+        yesButton.isEnabled = false
+        noButton.isEnabled = false
         SwiftSpinner.show("Writing to database...")
-        uploadImageToStorage()
+        firebaseManager.uploadImageToStorage(image: imageView.image!)
     }
     
     @IBAction func incorrectMatch(_ sender: Any) {
         correctMatch = false
+        yesButton.isEnabled = false
+        noButton.isEnabled = false
         SwiftSpinner.show("Writing to database...")
-        uploadImageToStorage()
+        firebaseManager.uploadImageToStorage(image: imageView.image!)
     }
     
-    func uploadImageToStorage() {
+    func uploadImageToStorage(image:UIImage) {
         
         let imageName = NSUUID().uuidString
         let storageRef = Storage.storage().reference().child(imageName)
@@ -105,7 +114,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         queryRef.setValue(query.toAnyObject())
 
         hideSwiftSpinner()
-    }
+    } 
     
     func hideSwiftSpinner() {
         SwiftSpinner.hide()
@@ -148,9 +157,8 @@ extension ViewController: APIManagerDelegate {
         let formattedMatchesArray = matchesArrayWithoutQuotations.trimmingCharacters(in: CharacterSet.punctuationCharacters).replacingOccurrences(of: ",", with: "\n")
         let space = " "
         self.textView.text = space.appending(formattedMatchesArray)
-        
-        
-       // self.button.isEnabled = true
+        yesButton.isEnabled = true
+        noButton.isEnabled = true
         
     }
 }

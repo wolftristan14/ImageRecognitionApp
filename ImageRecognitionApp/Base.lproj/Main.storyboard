@@ -293,7 +293,9 @@
                     </view>
                     <connections>
                         <outlet property="imageView" destination="tr8-WX-Dka" id="OBi-gj-NdM"/>
+                        <outlet property="noButton" destination="st0-zs-mOz" id="xoY-8n-ZSq"/>
                         <outlet property="textView" destination="t36-oD-iFu" id="9wl-Ut-uNy"/>
+                        <outlet property="yesButton" destination="TKl-3h-Hmh" id="3fb-Rd-1RZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
