@@ -12,7 +12,7 @@ import UIKit
 class ButtonStyleManager: UIButton {
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        self.layer.borderWidth = 1
+        self.layer.borderWidth = 2
         self.layer.borderColor = UIColor.black.cgColor
     }
 }

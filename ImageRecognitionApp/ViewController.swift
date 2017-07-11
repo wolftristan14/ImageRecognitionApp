@@ -20,6 +20,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     var counter = 0
     var correctMatch:Bool!
     
+    
     var databaseRef:DatabaseReference! {
         return Database.database().reference()
     }
@@ -117,6 +118,24 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         present(picker, animated: true, completion: nil)
     }
     
+    @IBAction func logOut(_ sender:UIBarButtonItem) {
+        if Auth.auth().currentUser != nil {
+            let firebaseAuth = Auth.auth()
+            do {
+                try firebaseAuth.signOut()
+            } catch let signOutError as NSError {
+                print ("Error signing out: %@", signOutError.localizedDescription)
+            }
+            
+            self.navigationController?.popViewController(animated: true)
+            
+            self.dismiss(animated: true, completion: nil)
+            
+            let viewController = self.storyboard?.instantiateViewController(withIdentifier: "navigationController")
+            
+            self.present(viewController!, animated: true, completion: nil)
+        }
+    }
 }
 
 extension ViewController: APIManagerDelegate {
