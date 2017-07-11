@@ -16,6 +16,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var yesButton: ButtonStyleManager!
     @IBOutlet weak var noButton: ButtonStyleManager!
+    @IBOutlet weak var correctMatchLabel: UILabel!
    
     var counter = 0
     var correctMatch:Bool!
@@ -31,8 +32,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         self.view.isHidden = true
         textView.isEditable = false
         textView.isSelectable = false
-        yesButton.isEnabled = false
-        noButton.isEnabled = false
+        yesButton.isHidden = true
+        noButton.isHidden = true
+        correctMatchLabel.isHidden = true
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -44,7 +46,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     override func viewDidAppear(_ animated: Bool) {
         if counter == 0 {
         picker.allowsEditing = false
-        picker.sourceType = UIImagePickerControllerSourceType.camera
+        picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
         present(picker, animated: true, completion: nil)
         counter += 1
         }
@@ -67,16 +69,18 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     @IBAction func correctMatch(_ sender: Any) {
         correctMatch = true
-        yesButton.isEnabled = false
-        noButton.isEnabled = false
+        yesButton.isHidden = true
+        noButton.isHidden = true
+        correctMatchLabel.isHidden = true
         SwiftSpinner.show("Writing to database...")
         uploadImageToStorage()
     }
     
     @IBAction func incorrectMatch(_ sender: Any) {
         correctMatch = false
-        yesButton.isEnabled = false
-        noButton.isEnabled = false
+        yesButton.isHidden = true
+        noButton.isHidden = true
+        correctMatchLabel.isHidden = true
         SwiftSpinner.show("Writing to database...")
         uploadImageToStorage()
     }
@@ -118,7 +122,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
     @IBAction func goBackToCamera(_ sender: UIBarButtonItem) {
         picker.allowsEditing = false
-        picker.sourceType = UIImagePickerControllerSourceType.camera
+        picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
         picker.delegate = self
         present(picker, animated: true, completion: nil)
     }
@@ -153,8 +157,10 @@ extension ViewController: APIManagerDelegate {
         let formattedMatchesArray = matchesArrayWithoutQuotations.trimmingCharacters(in: CharacterSet.punctuationCharacters).replacingOccurrences(of: ",", with: "\n")
         let space = " "
         self.textView.text = space.appending(formattedMatchesArray)
-        yesButton.isEnabled = true
-        noButton.isEnabled = true
+        yesButton.isHidden = false
+        noButton.isHidden = false
+        correctMatchLabel.isHidden = false
+
         
     }
 }

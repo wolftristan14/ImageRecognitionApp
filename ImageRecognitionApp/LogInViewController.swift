@@ -32,6 +32,8 @@ class LogInViewController: UIViewController {
                 
                 if error == nil {
                     print("Logged in")
+                    self.emailTextField.text?.removeAll()
+                    self.passwordTextField.text?.removeAll()
                     self.navigationController?.popViewController(animated: true)
                     self.dismiss(animated: true, completion: nil)
                     let viewController = self.storyboard?.instantiateViewController(withIdentifier: "viewController")
