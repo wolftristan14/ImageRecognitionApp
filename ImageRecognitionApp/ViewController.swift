@@ -98,7 +98,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     func writeToDatabase(imageURL:String) {
         
-        let queryRef = databaseRef.child("Queries").child("\(RAND_MAX)")
+        let queryRef = databaseRef.child("Queries").child(imageURL.replacingOccurrences(of: ".", with: "dot").replacingOccurrences(of: "/", with: "slash"))
         
         let query = Query(user: (Auth.auth().currentUser?.email)!, imageURL: imageURL, matches: self.textView.text.replacingOccurrences(of: "\n", with: ","), correctMatch: correctMatch)
         
