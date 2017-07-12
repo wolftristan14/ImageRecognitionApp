@@ -216,7 +216,7 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tr8-WX-Dka">
                                 <rect key="frame" x="0.0" y="66" width="375" height="333.5"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.87012737989425659" green="0.92161601781845093" blue="0.96916896104812622" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="st0-zs-mOz" customClass="ButtonStyleManager" customModule="ImageRecognitionApp" customModuleProvider="target">
                                 <rect key="frame" x="319" y="629" width="30" height="30"/>
