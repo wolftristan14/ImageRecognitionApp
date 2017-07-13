@@ -8,7 +8,10 @@
 
 import UIKit
 import Firebase
+import CoreML
+import Vision
 
+@available(iOS 11.0, *)
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     let picker = UIImagePickerController()
@@ -46,7 +49,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     override func viewDidAppear(_ animated: Bool) {
         if counter == 0 {
         picker.allowsEditing = false
-        picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
+        picker.sourceType = UIImagePickerControllerSourceType.camera
         present(picker, animated: true, completion: nil)
         counter += 1
         }
@@ -57,11 +60,12 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         self.view.isHidden = false
         
         dismiss(animated: true, completion: nil)
-        if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
+        if var image = info[UIImagePickerControllerOriginalImage] as? UIImage {
           
             let apiManager = APIManager()
             apiManager.delegate = self
-            apiManager.recognizeImage(image: image)
+            let ciImage:CIImage = CIImage(image: image)!
+            apiManager.recognizeImage(image: ciImage)
             SwiftSpinner.show("Loading Matches...")
             imageView.image = image
         }
@@ -122,7 +126,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
     @IBAction func goBackToCamera(_ sender: UIBarButtonItem) {
         picker.allowsEditing = false
-        picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
+        picker.sourceType = UIImagePickerControllerSourceType.camera
         picker.delegate = self
         present(picker, animated: true, completion: nil)
     }
@@ -147,19 +151,26 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
 }
 
+@available(iOS 11.0, *)
 extension ViewController: APIManagerDelegate {
     
     func updateTextViewWithMatches(matches: Array<String>) {
         SwiftSpinner.hide()
         let topFiveMatchesArray = matches.prefix(upTo: 5)
-        let matchesArrayWithoutQuotations = String(format: "%@", topFiveMatchesArray.description.replacingOccurrences(of: "\"", with: "", options: NSString.CompareOptions.literal, range:nil))
+        var topFiveMatchesArrayWithoutDoubles:Array<String> = []
+        var matchComponents:Array<String> = []
+        for match in topFiveMatchesArray {
+            matchComponents = match.components(separatedBy: ",")
+            topFiveMatchesArrayWithoutDoubles.append(matchComponents[0])
+        }
+        let matchesArrayWithoutQuotations = String(format: "%@", topFiveMatchesArrayWithoutDoubles.description.replacingOccurrences(of: "\"", with: "", options: NSString.CompareOptions.literal, range:nil))
         
         let formattedMatchesArray = matchesArrayWithoutQuotations.trimmingCharacters(in: CharacterSet.punctuationCharacters).replacingOccurrences(of: ",", with: "\n")
         let space = " "
         self.textView.text = space.appending(formattedMatchesArray)
         yesButton.isHidden = false
         noButton.isHidden = false
-        correctMatchLabel.isHidden = false
+        correctMatchLabel.isHidden = false 
 
         
     }

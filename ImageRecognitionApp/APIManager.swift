@@ -6,51 +6,52 @@
 //  Copyright © 2017 Tristan Wolf. All rights reserved.
 //
 
-import Clarifai
+import CoreML
+import Vision
 
 protocol APIManagerDelegate {
+    @available(iOS 11.0, *)
     func updateTextViewWithMatches(matches:Array<String>)
 }
 
+@available(iOS 11.0, *)
 class APIManager: NSObject {
     
-    let app = ClarifaiApp(apiKey: "e61a45b0c24f42528b9de709b83cc3d2")
     var matches = Array<String>()
     var delegate:APIManagerDelegate?
+    var viewController = ViewController()
     
-    func recognizeImage(image: UIImage) {
+    func recognizeImage(image: CIImage) {
         
-        if let app = app {
-            
-            app.getModelByName("general-v1.3", completion: { (model, error) in
-                
-                let clarImage = ClarifaiImage(image: image)!
-                
-                model?.predict(on: [clarImage], completion: { (outputs, error) in
-                    print(error?.localizedDescription ?? "no error")
-                    guard
-                        let clarOuputs = outputs
-                        else {
-                            print("Recognition task failed")
-                            return
-                    }
-                    
-                    if let clarOutput = clarOuputs.first {
-                        for concept in clarOutput.concepts {
-                            self.matches.append(concept.conceptName)
-                        }
-                        
-                        DispatchQueue.main.async {
-                            self.delegate?.updateTextViewWithMatches(matches: self.matches)
-                        }
-                    }
-                })
-            })
+        let resNetModel = Resnet50.init()
+        guard let model = try? VNCoreMLModel(for: resNetModel.model) else {
+            fatalError("can't load Places ML model")
+        }
+        
+        // Create a Vision request with completion handler
+        let request = VNCoreMLRequest(model: model) { request, error in
+            guard let results = request.results as? [VNClassificationObservation] else {
+                    fatalError("unexpected result type from VNCoreMLRequest")
+            }
+            for result in results {
+                self.matches.append(result.identifier)
+            }
+            // Update UI on main queue
+            DispatchQueue.main.async {
+                self.delegate?.updateTextViewWithMatches(matches: self.matches)
+            }
+        }
+        
+        // Run the Core ML GoogLeNetPlaces classifier on global dispatch queue
+        let handler = VNImageRequestHandler(ciImage: image)
+        DispatchQueue.global(qos: .userInteractive).async {
+            do {
+                try handler.perform([request])
+            } catch {
+                print(error)
+            }
         }
     }
-   
-    
-
-    
  
 }
+
