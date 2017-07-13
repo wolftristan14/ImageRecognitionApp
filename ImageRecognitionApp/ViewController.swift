@@ -49,7 +49,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     override func viewDidAppear(_ animated: Bool) {
         if counter == 0 {
         picker.allowsEditing = false
-        picker.sourceType = UIImagePickerControllerSourceType.camera
+        picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
         present(picker, animated: true, completion: nil)
         counter += 1
         }
@@ -58,10 +58,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         self.view.isHidden = false
-        
         dismiss(animated: true, completion: nil)
-        if var image = info[UIImagePickerControllerOriginalImage] as? UIImage {
-          
+        if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
             let apiManager = APIManager()
             apiManager.delegate = self
             let ciImage:CIImage = CIImage(image: image)!
@@ -95,11 +93,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         let storageRef = Storage.storage().reference().child(imageName)
         
         if let uploadData = UIImagePNGRepresentation(imageView.image ?? #imageLiteral(resourceName: "Tom's_Restaurant,_NYC")) {
-            
             storageRef.putData(uploadData, metadata: nil, completion: {(metadata, error) in
-                
                 if error != nil {
                     print(error?.localizedDescription ?? "error")
+                    SwiftSpinner.hide()
                     return
                 }
                 let imageURL = metadata?.downloadURL()?.absoluteString
@@ -121,12 +118,12 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     } 
     
     func hideSwiftSpinner() {
-        SwiftSpinner.hide()
+        SwiftSpinner.hide() //see if this actually does anything
     }
 
     @IBAction func goBackToCamera(_ sender: UIBarButtonItem) {
         picker.allowsEditing = false
-        picker.sourceType = UIImagePickerControllerSourceType.camera
+        picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
         picker.delegate = self
         present(picker, animated: true, completion: nil)
     }
@@ -139,13 +136,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             } catch let signOutError as NSError {
                 print ("Error signing out: %@", signOutError.localizedDescription)
             }
-            
             self.navigationController?.popViewController(animated: true)
-            
             self.dismiss(animated: true, completion: nil)
             
             let viewController = self.storyboard?.instantiateViewController(withIdentifier: "navigationController")
-            
             self.present(viewController!, animated: true, completion: nil)
         }
     }
@@ -164,14 +158,11 @@ extension ViewController: APIManagerDelegate {
             topFiveMatchesArrayWithoutDoubles.append(matchComponents[0])
         }
         let matchesArrayWithoutQuotations = String(format: "%@", topFiveMatchesArrayWithoutDoubles.description.replacingOccurrences(of: "\"", with: "", options: NSString.CompareOptions.literal, range:nil))
-        
         let formattedMatchesArray = matchesArrayWithoutQuotations.trimmingCharacters(in: CharacterSet.punctuationCharacters).replacingOccurrences(of: ",", with: "\n")
         let space = " "
         self.textView.text = space.appending(formattedMatchesArray)
         yesButton.isHidden = false
         noButton.isHidden = false
-        correctMatchLabel.isHidden = false 
-
-        
+        correctMatchLabel.isHidden = false
     }
 }

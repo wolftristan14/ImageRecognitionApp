@@ -16,17 +16,16 @@ struct Query {
     var matches:String?
     var correctMatch:Bool
     
-    var ref:DatabaseReference?
-    var key:String
+    //var ref:DatabaseReference?
+    //var key:String
     
-    init(user:String, imageURL:String, matches:String, correctMatch:Bool, key:String = "") {
+    init(user:String, imageURL:String, matches:String, correctMatch:Bool) {
         self.user = user
         self.imageURL = imageURL
         self.matches = matches
         self.correctMatch = correctMatch
-        self.key = key
-        self.ref = nil
-        
+        //self.key = key
+       // self.ref = nil
     }
     
     init(snapshot: DataSnapshot) {
@@ -35,9 +34,8 @@ struct Query {
         imageURL = snapshotValue?["imageURL"] as? String
         matches = snapshotValue?["matches"] as? String
         correctMatch = snapshotValue?["correctMatch"] as! Bool
-        key = snapshot.key
-        ref = snapshot.ref
-        
+        //key = snapshot.key
+        //ref = snapshot.ref
     }
     
     func toAnyObject() -> Any {
