@@ -19,7 +19,6 @@ class APIManager: NSObject {
     
     var matches = Array<String>()
     var delegate:APIManagerDelegate?
-    var viewController = ViewController()
     
     func recognizeImage(image: CIImage) {
         
@@ -28,7 +27,6 @@ class APIManager: NSObject {
             fatalError("can't load Places ML model")
         }
         
-        // Create a Vision request with completion handler
         let request = VNCoreMLRequest(model: model) { request, error in
             guard let results = request.results as? [VNClassificationObservation] else {
                     fatalError("unexpected result type from VNCoreMLRequest")
@@ -36,13 +34,11 @@ class APIManager: NSObject {
             for result in results {
                 self.matches.append(result.identifier)
             }
-            // Update UI on main queue
             DispatchQueue.main.async {
                 self.delegate?.updateTextViewWithMatches(matches: self.matches)
             }
         }
         
-        // Run the Core ML GoogLeNetPlaces classifier on global dispatch queue
         let handler = VNImageRequestHandler(ciImage: image)
         DispatchQueue.global(qos: .userInteractive).async {
             do {
