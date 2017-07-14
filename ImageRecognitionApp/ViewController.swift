@@ -118,7 +118,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     } 
     
     func hideSwiftSpinner() {
-        SwiftSpinner.hide() //see if this actually does anything
+        SwiftSpinner.hide()
     }
 
     @IBAction func goBackToCamera(_ sender: UIBarButtonItem) {

@@ -29,7 +29,6 @@ struct Query {
         imageURL = snapshotValue?["imageURL"] as? String
         matches = snapshotValue?["matches"] as? String
         correctMatch = snapshotValue?["correctMatch"] as! Bool
-  
     }
     
     func toAnyObject() -> Any {
