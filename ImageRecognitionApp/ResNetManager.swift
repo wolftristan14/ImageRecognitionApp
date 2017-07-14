@@ -1,24 +1,24 @@
 //
-//  APIManager.swift
+//  ResNetManager.swift
 //  ImageRecognitionApp
 //
-//  Created by Tristan Wolf on 2017-07-07.
+//  Created by Tristan Wolf on 2017-07-14.
 //  Copyright © 2017 Tristan Wolf. All rights reserved.
 //
 
 import CoreML
 import Vision
 
-protocol APIManagerDelegate {
+protocol ResNetManagerDelegate {
     @available(iOS 11.0, *)
     func updateTextViewWithMatches(matches:Array<String>)
 }
 
 @available(iOS 11.0, *)
-class APIManager: NSObject {
+class ResNetManager: NSObject {
     
     var matches = Array<String>()
-    var delegate:APIManagerDelegate?
+    var delegate:ResNetManagerDelegate?
     
     func recognizeImage(image: CIImage) {
         let resNetModel = Resnet50.init()
@@ -27,7 +27,7 @@ class APIManager: NSObject {
         }
         let request = VNCoreMLRequest(model: model) { request, error in
             guard let results = request.results as? [VNClassificationObservation] else {
-                    fatalError("unexpected result type from VNCoreMLRequest")
+                fatalError("unexpected result type from VNCoreMLRequest")
             }
             for result in results {
                 self.matches.append(result.identifier)
@@ -47,4 +47,3 @@ class APIManager: NSObject {
         }
     }
 }
-

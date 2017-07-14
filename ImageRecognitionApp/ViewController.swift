@@ -60,10 +60,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         self.view.isHidden = false
         dismiss(animated: true, completion: nil)
         if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
-            let apiManager = APIManager()
-            apiManager.delegate = self
+            let resNetManager = ResNetManager()
+            resNetManager.delegate = self
             let ciImage:CIImage = CIImage(image: image)!
-            apiManager.recognizeImage(image: ciImage)
+            resNetManager.recognizeImage(image: ciImage)
             SwiftSpinner.show("Loading Matches...")
             imageView.image = image
         }
@@ -144,7 +144,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 }
 
 @available(iOS 11.0, *)
-extension ViewController: APIManagerDelegate {
+extension ViewController: ResNetManagerDelegate {
     
     func updateTextViewWithMatches(matches: Array<String>) {
         SwiftSpinner.hide()
