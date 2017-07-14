@@ -114,12 +114,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         queryRef.setValue(query.toAnyObject())
 
-        hideSwiftSpinner()
-    } 
-    
-    func hideSwiftSpinner() {
         SwiftSpinner.hide()
     }
+    
+  
 
     @IBAction func goBackToCamera(_ sender: UIBarButtonItem) {
         picker.allowsEditing = false
